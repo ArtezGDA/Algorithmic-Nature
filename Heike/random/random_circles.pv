@@ -1,18 +1,13 @@
 
-size(200, 200)
+size(200,200)
 background(1)
 
-for i in range(50):
+for i in range(100):
     x = random(WIDTH)
     y = random(HEIGHT)
     oval(x, y, y, y)
     stroke(0)
-    nofill()
-    
-for i in range(2):
-    z = random(WIDTH)
-    v = random(HEIGHT)
-    oval(z, v, z, z)
-    fill('red')
-    nostroke()
+    fill('white')
+  
+
     

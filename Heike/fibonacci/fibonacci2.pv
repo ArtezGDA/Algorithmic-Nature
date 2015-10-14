@@ -8,7 +8,7 @@ def fib(n):
     return fib(n - 1) + fib(n - 2)
 
 stroke('white')
-fill('lightblue', 'white')
+fill('black', 'white')
 x = 200
 y = 200
 for i in range(12, 0, -1):

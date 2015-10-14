@@ -1,0 +1,14 @@
+size(200, 200)
+import noise
+
+stroke(1)
+background(0)
+
+for x in range(WIDTH):
+    z = random (0.1, 10)
+    y = noise.pnoise1(x + 0.8, octaves=40)
+    y *= HEIGHT / z
+    y += HEIGHT / 1.7
+    rect(x, y, 100, 1)
+    pen(1)
+    
