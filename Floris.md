@@ -22,9 +22,9 @@
 ![](Floris/perlin_7.png)[perlin 5](Floris/perlin_5.pv)
 
 ## Recursive functions
-![](Floris/recursive_1.png)[recursive 1](Floris/recurcive_1.pv)
-![](Floris/recursive_2.png)[recursive 2](Floris/recurcive_2.pv)
-![](Floris/recursive_3.png)[recursive 3](Floris/recurcive_3.pv)
-![](Floris/recursive_4.png)[recursive 4](Floris/recurcive_4.pv)
-![](Floris/recursive_5.png)[recursive 5](Floris/recurcive_5.pv)
+![](Floris/recursive_1.png)[recursive 1](Floris/recursive_1.pv)
+![](Floris/recursive_2.png)[recursive 2](Floris/recursive_2.pv)
+![](Floris/recursive_3.png)[recursive 3](Floris/recursive_3.pv)
+![](Floris/recursive_4.png)[recursive 4](Floris/recursive_4.pv)
+![](Floris/recursive_5.png)[recursive 5](Floris/recursive_5.pv)
 
