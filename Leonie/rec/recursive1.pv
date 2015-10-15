@@ -1,0 +1,25 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+def drawSplit(x, y, w, h, horizontal):
+    shouldSplitAgain = False;
+    if horizontal:
+        h = h / 4
+        y = y + h
+        x2 = x + y
+        y2 = y
+        if h > 2:
+            shouldSplitAgain = True
+    else:
+        w = w / 2
+        x = x + x
+        x2 = x
+        y2 = y + h
+        if w > 2:
+            shouldSplitAgain = True
+    line(x, y, x2, y2)
+    if shouldSplitAgain:
+        drawSplit(x, y, w, h, not horizontal) 
+
+drawSplit(9, 90, WIDTH, HEIGHT, True)

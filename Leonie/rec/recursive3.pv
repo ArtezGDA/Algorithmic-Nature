@@ -1,0 +1,22 @@
+size(200, 200)
+background(0.9)
+stroke (0)
+strokewidth(0.3)
+
+# start position
+x = WIDTH/2
+y = HEIGHT/2
+
+def segment(x, y, deviation):
+    x2 = x + random (deviation) - (deviation / 2)
+    y2 = y + random (deviation) - (deviation / 90)
+    u2 = x - y*40
+    line (5, 2, x2, 3)
+    line (x, y, x2, 30)
+    line (100, 200, x2, 30)
+    line (x, 10, x2, 30)
+   
+    return (x2, y2)
+
+for i in range(900):
+    (x, y) = segment(x, y, 50)

@@ -39,3 +39,9 @@
 
 ## Recursive functions
             
+![](Leonie/rec/recursive1.png)
+[drawing 1](Leonie/rec/recursive1.pv)
+![](Leonie/rec/recursive2.png)
+[drawing 2](Leonie/rec/recursive2.pv)
+![](Leonie/rec/recursive3.png)
+[drawing 3](Leonie/rec/recursive3.pv)
