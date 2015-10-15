@@ -1,0 +1,11 @@
+words = ["Lists", "are", "fun"]
+colors = [color("#000"), color("#001"), color("#011")]
+
+for i in range(1000):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rotate(random(3600))
+    fontsize(random(100,10))
+
+    fill(choice(colors))
+    text(choice(words), x, y)

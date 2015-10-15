@@ -1,0 +1,13 @@
+size(512, 512)
+background('#000')
+fill('#fff', 100)
+stroke('#fff')
+pen(.25)
+for i in range(1000):
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    r = random(125, 150)
+    
+    
+    line(x, y, 226, 0)
+   

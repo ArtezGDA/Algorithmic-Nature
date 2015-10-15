@@ -1,0 +1,13 @@
+size(512, 512)
+background("#100")
+
+for i in range(100):
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    r = random(35, 25)
+    color("#fff")
+    color("#fff")
+    fill('#fff', 100)
+    
+    arc(x, y, r)
+    

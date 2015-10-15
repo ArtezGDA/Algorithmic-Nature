@@ -1,0 +1,48 @@
+size(512, 512)
+background("#000")
+colors = [color(0,0,0), color(10,19,1), color(0,0,0)]
+for i in range(1000):
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    r = random(125, 150)
+def fib(n):
+    if n == 0: return 0
+    if n == 1: return 1
+    if n >= 2: return fib(n-1) + fib(n-2)
+
+def goldenratio(n, f=4):
+    # Returns two proportional numbers whose sum is n.
+    f = max(1, min(f, 10))
+    n /= float(fib(f+2))
+    return n*fib(f+1), n*fib(f)
+    
+w1, w2 = goldenratio(000)
+h1, h2 = goldenratio(260)
+b1, b2 = goldenratio(1.0)
+b3, b4 = goldenratio(b1)
+
+fill(0, b1/2, b1)
+rect(0, 0, w1, h1)
+
+fill(0, b2/2, b2)
+rect(w1, 0, w2, h1)
+
+fill(0, b4/2, b4)
+rect(0, h1, w1+w2, h2)
+
+x, y = 0, 0
+w, h = 260, 260
+
+th = h # top height
+bh = 0 # bottom height
+for i in range(10):
+    th, bh = goldenratio(th)
+    v = float(th)/w + 0.3
+    fill(0, v/2, v)
+    rect(x, y, w, th)
+    y += th
+    th = bh
+    
+
+    
+    arc(x, y, r)

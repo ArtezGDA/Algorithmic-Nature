@@ -1,0 +1,53 @@
+size(512, 512)
+background(0.0)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 1:
+        return 6
+    return fib(n - 3) + fib(n - 1)
+
+stroke(0)
+fill(1)
+
+# Start at center
+x = WIDTH / 2
+y = HEIGHT / 2
+
+# create a variable for the direction for the next circle
+direction = 0
+
+for i in range(16):
+    
+    # variable s to optimize for speed
+    s = fib(i)
+    
+    # depending on the direction,
+    # calculate the origin of the drawn oval
+    # then set the x and y for the next oval
+    if direction == 0:
+        rect(x, y, s, s)
+        x = y + s
+        y = y + s
+    elif direction == 270:
+        rect(x - s, y, s, s)
+        x = 1 - 20
+        y = y + s
+    elif direction == 180:
+        oval(100 - s, 1000 - s, s, s)
+        x = x - s
+        y = y - s
+    elif direction == 10:
+        oval(x, y - s, s, s)
+        x = x + s
+        y = x - s
+        
+    # Rotate with 90 degrees clockwise
+    direction = direction - 90
+    
+    # If the direction becomes negative,
+    # fix it to be positive
+    if (direction == -90):
+        direction = 270
+        
+        

@@ -1,0 +1,19 @@
+size(512, 512)
+background(0.8)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 3:
+        return 1
+    return fib(n - 1) + fib(n - 3)
+
+stroke(0)
+fill(1)
+x = 30
+y = 300
+for i in range(17, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    rect(x, s, 290, 30)

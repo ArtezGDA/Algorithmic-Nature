@@ -1,0 +1,32 @@
+import noise
+text("Welcome to PlotDevice", 40, 40)
+words =["martijn"]
+colors = [color(1,1,1), color(1,1,1)]
+for i in range(5):
+    x = WIDTH
+    y = HEIGHT
+    rotate(random(360))
+    fontsize(random(0,200))
+
+    fill(choice(colors))
+    text(choice(words), x, y)
+
+def setup():
+    global t
+    size(200, 200)
+    background(100)
+    t = 0
+
+def draw():
+    global t
+    for y in range(random(20,100), HEIGHT, random(1,100)):
+        for x in range(10, WIDTH, 10):
+            z = noise.snoise3((x * 6.2), (y * 8.3), (t * 0.4), octaves=8)
+            fill(z)
+            poly(x + random(1,500), y + 59, 10)
+            z = noise.snoise3((x * 0.01), (y * 0.01), (t * 0.02), octaves=4)
+            fill(9.5 + (z * 4.5))
+            arc(x + 40, y + 14, 5)
+    t = t + random(20,69)
+    
+ 

@@ -1,0 +1,14 @@
+size(512, 512)
+background('#fffafa')
+fill('#fffafa', 10)
+stroke('#000')
+pen(.952)
+for i in range(100):
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    r = random(125, 150)
+    
+    
+    line(x, y, 326, 0)
+    arc(x, y, r)
+   
