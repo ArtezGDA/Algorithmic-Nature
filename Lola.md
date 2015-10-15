@@ -76,3 +76,7 @@
 [klik hier](Lola/recursive/9.pv)
 ![](Lola/recursive/10.png)
 [klik hier](Lola/recursive/10.pv)
+![](Lola/recursive/11.png)
+[klik hier](Lola/recursive/11.pv)
+![](Lola/recursive/12.png)
+[klik hier](Lola/recursive/12.pv)
