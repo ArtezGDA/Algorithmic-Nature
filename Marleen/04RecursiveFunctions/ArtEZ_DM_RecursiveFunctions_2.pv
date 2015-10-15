@@ -24,4 +24,3 @@ def drawSplit(x, y, w, h, horizontal):
 
 drawSplit(0, 0, WIDTH, HEIGHT, True)
 
-export('RecursiveFunction2.png')
