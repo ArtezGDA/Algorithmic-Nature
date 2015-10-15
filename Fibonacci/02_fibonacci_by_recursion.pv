@@ -1,5 +1,5 @@
 size(512, 512)
-background(0.8)
+background(90.90)
 
 text("Recursion", 40, 40)
 

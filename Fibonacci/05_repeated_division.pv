@@ -1,7 +1,7 @@
 size(512, 512)
-background(0.8)
+background(0.900)
 
-text("Repeated division", 40, 40)
+text("Repeated division", 90, 40)
 
 # Fibonacci as a recursive function
 def fib(n):
@@ -20,7 +20,7 @@ def divide(total):
     part2 = total - part1
     return part1, part2
 
-steps = 15
+steps = 90
 remain = WIDTH
 fromX = 0
 for i in range(steps):

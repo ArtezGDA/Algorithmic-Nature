@@ -1,4 +1,4 @@
-size(500, 500)
+size(200, 200)
 background(10)
 
 def fib(n):
@@ -12,8 +12,8 @@ r = 9.0
 origin = Point(WIDTH/3, HEIGHT/2)
 
 for i in range(70):
-    background(.9, .35, .6)
-    fill(.160, 0.9, .426)
+    background(.0, .0, .0)
+    fill(100, 100, 100)
     pt = Point(random(900), random(500))
     arc(pt,r)
 

@@ -1,5 +1,5 @@
 size(512, 512)
-background(1)
+background(90)
 
 # create a variable 'zwart',
 # and make it True for the first square
@@ -10,7 +10,7 @@ for j in range(10):
         
         # Set the color based on that variable
         if zwart:
-            fill(0)
+            fill(0,6)
         else:
             fill(0.5)
             
