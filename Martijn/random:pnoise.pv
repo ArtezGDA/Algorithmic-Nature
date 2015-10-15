@@ -19,6 +19,8 @@ def draw():
         y += random(30,50) / random(30,50)
         fill(1)
         
+        rect(x,random(3,12), x,random(3,12))
+        line(x,random(4,5), x,random(3,12))
 
 
 

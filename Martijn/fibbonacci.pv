@@ -1,0 +1,24 @@
+size(200, 200)
+background("white")
+
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(0)
+fill(1)
+x = 90
+y = 20
+rectanglePoint = Point(0,0)
+for i in range(20, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+
+    rotate(random(20,40))
+  
+    
+    for i in range(10):
+        i=80+x*random(40,130)*random(30,70) 
+        poly(x,random(4,500), 20, sides=8)

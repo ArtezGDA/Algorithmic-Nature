@@ -12,6 +12,5 @@ for i in range(9):
     x2 = x + (WIDTH - 20) / 6
     y2 = y + random(20) - 10
     rect (x, y, x2, y2)
-  
-
+    
 

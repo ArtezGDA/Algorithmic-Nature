@@ -16,16 +16,9 @@ def draw():
     for x in range(WIDTH):
         y = noise.snoise2((x * 0.01), t, octaves=4)
         y *= HEIGHT / random(30,50)
-        y += random(30,50) / random(30,50)
+        y += random(20,90) / random(30,50)
         fill(1)
-        
-
-
-
-
-
-
-
+        oval(x,random(4,50), x,random(3,120))
 
 
 

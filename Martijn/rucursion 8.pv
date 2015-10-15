@@ -1,0 +1,39 @@
+size(400, 400)
+background(1)
+stroke (0)
+import noise
+global t
+
+def setup():
+    size(200, 200)
+    global t
+    background(1)
+    t = random(10,80)
+
+# start position
+x = 10
+y = 100
+
+def wavy_segment(x, y, width,t):
+    x2 = x + width
+    y2 = y + random(t) - (t / 2)
+    nofill()
+    
+    arc(35,x,y, range=150)
+    return y2
+
+def wavy_line(x, y, steps):
+    for i in range(steps):
+        # calculate width (w)
+        w = (WIDTH - 20) / steps
+        # increasing deviation (d)
+        d = 10 + (i * 10)
+        rotate(80)
+       
+        y = wavy_segment(x, y, w, d)
+        x += w
+
+for i in range(40):
+    wavy_line(10, 100 + (i * 25), 6)
+
+    

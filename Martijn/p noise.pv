@@ -1,0 +1,17 @@
+size(200,200)
+background(1)
+import noise
+global t
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 10) + fib(n - 2)
+    global t
+   
+    t = t - 0.01
+    for x in range(WIDTH):
+        y = noise.snoise2((x * 0.01), t, octaves=4)
+        fill(0.1,0.9)
+       
+        poly(x,random(4,50), 20, sides=6)

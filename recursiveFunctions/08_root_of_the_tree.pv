@@ -9,6 +9,7 @@ y = HEIGHT / 2
 def segment(x, y, x_direction, height):
     x2 = x + x_direction
     y2 = y - height
+    
     line (x, y, x2, y2)
     return (x2, y2)
 

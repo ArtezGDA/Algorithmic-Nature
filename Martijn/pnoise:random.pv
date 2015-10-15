@@ -36,18 +36,8 @@ def draw():
         fill(1,1)
        
         rect(t,random(3,500), t,random(3,12))
-
-      
-        
-        
         
 
         
-
-
-
-
-
-
-
+        rotate(degrees=160)
 

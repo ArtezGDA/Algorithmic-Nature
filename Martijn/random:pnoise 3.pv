@@ -1,4 +1,4 @@
-size(200, 200)
+size(200,200)
 background(1)
 import noise
 global t
@@ -7,7 +7,7 @@ def setup():
     size(200, 200)
     global t
     background(1)
-    t = random(0,1)
+    t = random(10,50)
 
 def draw():
     global t
@@ -15,17 +15,6 @@ def draw():
     t = t - 0.01
     for x in range(WIDTH):
         y = noise.snoise2((x * 0.01), t, octaves=4)
-        y *= HEIGHT / random(30,50)
-        y += random(30,50) / random(30,50)
-        fill(1)
-        
-
-
-
-
-
-
-
-
-
-
+        fill(0.1,0.9)
+       
+        poly(x,random(4,500), 20, sides=6)
