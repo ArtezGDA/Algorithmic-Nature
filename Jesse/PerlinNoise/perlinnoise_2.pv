@@ -20,4 +20,3 @@ def draw():
             oval(x_3d, y_3d, 10,10)
     t = t + 4
     
-export('perlinnoise_2.png')
