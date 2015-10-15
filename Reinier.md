@@ -7,12 +7,12 @@
 ![](Reinier/1_fibo/sketch4.png)
 ![](Reinier/1_fibo/sketch5.png)
 ![](Reinier/1_fibo/sketch6.png)
-[sketch 1](1_Reinier/fibo/sketch1.pv)
-[sketch 2](1_Reinier/fibo/sketch2.pv)
-[sketch 3](1_Reinier/fibo/sketch3.pv)
-[sketch 4](1_Reinier/fibo/sketch4.pv)
-[sketch 5](1_Reinier/fibo/sketch5.pv)
-[sketch 6](1_Reinier/fibo/sketch6.pv)
+[sketch 1](Reinier/1_fibo/sketch1.pv)
+[sketch 2](Reinier/1_fibo/sketch2.pv)
+[sketch 3](Reinier/1_fibo/sketch3.pv)
+[sketch 4](Reinier/1_fibo/sketch4.pv)
+[sketch 5](Reinier/1_fibo/sketch5.pv)
+[sketch 6](Reinier/1_fibo/sketch6.pv)
 
 ## Random
 ![](Reinier/2_random/sketch1_random.png)
