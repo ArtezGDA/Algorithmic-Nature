@@ -1,0 +1,19 @@
+import noise
+
+size(200, 200)
+background(1)
+fill(0)
+stroke(0)
+strokewidth(2)
+
+for y in range(0, HEIGHT, 20):
+    for x in range(0, WIDTH, 15):
+        z = noise.snoise2((x * 5), (y * y), octaves=2)
+        # z = z * 20
+        x_3d = x + - 1 * 5 + 5
+        y_3d = y - y + 5 + y
+        poly(y_3d, x_3d, 5)
+        
+
+    
+export('PerlinNoise3.png')

@@ -1,0 +1,17 @@
+size(200, 200)
+background(1)
+
+def fib (n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+    
+stroke(0)
+x = 80
+y = 60
+for i in range(9, 0, -1):
+    s = fib(i)
+    print"%d: %d" % (i + 1, s)
+    rect(x - s, y - s, s, s)
+    y += s
+    

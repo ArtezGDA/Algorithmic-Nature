@@ -1,0 +1,22 @@
+size(400, 400)
+background(1)
+stroke (0)
+strokewidth(0.2)
+nofill()
+
+# start position
+x = 400
+y = 400
+
+def draadje(x, y, deviation):
+    x2 = x + random(deviation) - (deviation / 2)
+    y2 = y + random(deviation) - (deviation / 2)
+    u2 = x - y
+    line (x, y, x2, y2)
+    oval (x, y, u2, u2)
+    poly (x2, y2, u2)
+   
+    return (x2, y2)
+
+for i in range(600):
+    (x, y) = draadje(x, y, 10)

@@ -1,0 +1,19 @@
+size(200, 200)
+background(0)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 5) + fib(n - 2)
+
+stroke(0)
+fill(1)
+x = 100
+y = 100
+for i in range(15, 0, -1):
+    s = fib(i)
+    fill("white")
+    ellipse(10 , (100 - s*3), s*2, s*2)
+    ellipse(10, (100 + s), s*2, s*2)
+    ellipse(10, (100 - s), s*2, s*2)

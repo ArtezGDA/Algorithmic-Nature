@@ -1,0 +1,25 @@
+size(200, 200)
+background(1)
+stroke (0)
+skew(40)
+
+
+x = 0
+y = 40
+
+def wavy_segment(x, y, width, deviation):
+    x2 = x + width
+    y2 = y + (deviation) - (deviation / 9)
+    rect (x, y, x2, y2)
+    return y2
+
+def wavy_line(x, y, steps):
+    for i in range(steps):
+        w = (WIDTH -1) / steps
+        y = wavy_segment(x, random(100), random(6), 70)
+        x += w
+
+for i in range(2):
+    wavy_line(1, 700 + (i / 80), 7)
+    
+export('recursive3.png')

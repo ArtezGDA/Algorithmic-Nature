@@ -1,0 +1,8 @@
+size(200, 200)
+background("white")
+
+for i in range(20):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill('black')
+    rect(x, y, 100, 50)

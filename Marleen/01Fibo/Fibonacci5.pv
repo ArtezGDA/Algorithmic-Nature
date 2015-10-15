@@ -1,0 +1,29 @@
+size(400, 400)
+500 - s*2, 500 - s*2, s*4, s*4
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+    
+
+
+
+strokewidth(0)
+stroke(1.0, 0.0, 0.5)
+x = 100
+y = 100
+for i in range(x, 1, -1):
+    star(500 - x*2, 500 - x*2, x*4, x*4)
+    rotate(4)
+    poly(75,25, 25, points=5)
+    # variable s to optimize for speed
+s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+  
+  
+  
+
+export('Fibonacci6.jpg')

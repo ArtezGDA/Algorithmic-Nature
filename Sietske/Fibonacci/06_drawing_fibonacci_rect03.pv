@@ -1,5 +1,5 @@
 size(512, 512)
-background(0.1, 0.8, 5)
+background(0)
 
 # Fibonacci as a recursive function
 def fib(n):
@@ -20,6 +20,6 @@ for i in range(14, -90, -1):
     # (calculate the from position by using x - s)
     
     rotate(30)
-    text("wolkje", y - s, x - s )
+    text("...", y - s, x - s )
     scale(0.9)
     

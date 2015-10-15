@@ -1,0 +1,12 @@
+size(200, 200)
+
+fill('black', 0.1)
+stroke('black')
+pen(.2)
+
+for i in range(50):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    r = random(5,50)
+
+    arc(x,y,r)

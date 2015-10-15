@@ -1,0 +1,4 @@
+randomsize(512, 512)
+background(1)
+
+text("Welcome to PlotDevice", 40, 40)

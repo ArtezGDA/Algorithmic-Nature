@@ -44,4 +44,15 @@
 
 
 ## Recursive functions
-            
+![](Sietske/recursiveFunctions/recursiveFunctions-Sketch01.png)
+[drawing 1](Sietske/recursiveFunctions/recursiveFunctions-Sketch01.pv)
+![](Sietske/recursiveFunctions/recursiveFunctions-Sketch02.png)
+[drawing 2](Sietske/recursiveFunctions/recursiveFunctions-Sketch02.pv)
+![](Sietske/recursiveFunctions/recursiveFunctions-Sketch03.png)
+[drawing 3](Sietske/recursiveFunctions/recursiveFunctions-Sketch03.pv)
+![](Sietske/recursiveFunctions/recursiveFunctions-Sketch04.png)
+[drawing 4](Sietske/recursiveFunctions/recursiveFunctions-Sketch04.pv)
+![](Sietske/recursiveFunctions/recursiveFunctions-Sketch05.png)
+[drawing 5](Sietske/recursiveFunctions/recursiveFunctions-Sketch05.pv)
+
+          

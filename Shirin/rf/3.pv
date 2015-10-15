@@ -1,0 +1,153 @@
+size(400, 400)
+background(1)
+stroke (0)
+
+# start position
+x = WIDTH / 2
+y = HEIGHT
+
+# Making it recursive:
+# 1. add extra argument 'depth'
+# 2. only continue deeper if depth > 0
+# 3. call itself (twice)
+# 4. decrement the depth of each 'child'
+# 5. call the root with a depth > 0
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y-10, x2, y2)
+    if depth > 0:
+        segment(x2, y2, -30, 30, depth - 1)
+        segment(x2, y2, 30, 30, depth - 1)
+    return (x2, y2)
+
+# play with 3rd and 4th argument
+segment(x, y, 0, 50, 4)
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y-20, x2, y2)
+    if depth > 0:
+        segment(x2, y2, -30, 30, depth - 1)
+        segment(x2, y2, 30, 30, depth - 1)
+    return (x2, y2)
+
+# play with 3rd and 4th argument
+segment(x, y, 0, 50, 4)
+
+
+z = WIDTH-100
+p = HEIGHT-50
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-10, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-20, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+z = WIDTH-320
+p = HEIGHT-50
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-10, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-20, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+
+z = WIDTH-50
+p = HEIGHT-150
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-10, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-20, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+z = WIDTH-350
+p = HEIGHT-150
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-10, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+def segment(z, p, z_direction, height, depth):
+    z2 = z + z_direction
+    p2 = p - height
+    line (z, p-20, z2, p2)
+    if depth > 0:
+        segment(z2, p2, -30, 30, depth - 1)
+        segment(z2, p2, 30, 30, depth - 1)
+    return (z2, p2)
+
+# play with 3rd and 4th argument
+segment(z, p, 0, 50, 4)
+
+line(WIDTH/2,60,WIDTH/2,10)
+
+export("3.png")
+

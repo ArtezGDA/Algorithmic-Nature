@@ -1,0 +1,9 @@
+size(512, 512)
+background(1)
+
+for i in range(30):
+    x = 10 + i * 5
+    y = random(HEIGHT)
+    rect(128, y, 256, 5)
+    oval(0, y, 256, 1)
+    oval(256, y, 256, 1)

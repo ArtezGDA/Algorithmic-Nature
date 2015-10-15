@@ -1,0 +1,10 @@
+
+size(200, 200)
+background("black")
+
+
+for i in range(300):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    star(x-0, y-0, 2, 2)
+    fill("white")

@@ -2,37 +2,49 @@
 
 ## Fibonacci
 
-![](Jesse/fib2.png)
-![](Jesse/fib3.png)
-![](Jesse/fib4.png)
-![](Jesse/fib5.png)
-![](Jesse/fib6.png)
-![](Jesse/fib7.png)
+![](Jesse/fibonacci/fib1.png)[fibonacci 1](Jesse/fibonacci/fib1.pv)
+![](Jesse/fibonacci/fib2.png)[fibonacci 2](Jesse/fibonacci/fib2.pv)
+![](Jesse/fibonacci/fib3.png)[fibonacci 3](Jesse/fibonacci/fib3.pv)
+![](Jesse/fibonacci/fib4.png)[fibonacci 4](Jesse/fibonacci/fib4.pv)
+![](Jesse/fibonacci/fib5.png)[fibonacci 5](Jesse/fibonacci/fib5.pv)
 
-![](Jesse/schets1.png)
-![](Jesse/schets2.png)
-![](Jesse/schets2.pv)
-![](Jesse/schets3.png)
-![](Jesse/schets4.png)
-![](Jesse/schets4.pv)
-![](Jesse/schets5.png)
-![](Jesse/schets5.pv)
 
+
+## Random
+
+![](Jesse/random/random1.png)[random 1](Jesse/random/random1.pv)
+![](Jesse/random/random2.png)[random 2](Jesse/random/random2.pv)
+![](Jesse/random/random3.png)[random 3](Jesse/random/random3.pv)
+![](Jesse/random/random4.png)[random 4](Jesse/random/random4.pv)
+![](Jesse/random/random5.png)[random 5](Jesse/random/random5.pv)
 
 
 ## Perlin Noise
-![](Jesse/perlinnoise_1.png)
-![](Jesse/perlinnoise_1.pv)
-![](Jesse/perlinnoise_2.png)
-![](Jesse/perlinnoise_2.pv)
-![](Jesse/perlinnoise_3.png)
-![](Jesse/perlinnoise_3.pv)
-![](Jesse/perlinnoise_4.png)
-![](Jesse/perlinnoise_4.pv)
-![](Jesse/perlinnoise_5.png)
-![](Jesse/perlinnoise_5.pv)
-![](Jesse/perlinnoise_6.png)
-![](Jesse/perlinnoise_6.pv)
+
+
+![](Jesse/perlinnoise/perlinnoise_1.png)
+[perlinnoise 1](Jesse/perlinnoise/perlinnoise_1.pv)
+![](Jesse/perlinnoise/perlinnoise_2.png)
+[perlinnoise 2](Jesse/perlinnoise/perlinnoise_2.pv)
+![](Jesse/perlinnoise/perlinnoise_3.png)
+[perlinnoise 3](Jesse/perlinnoise/perlinnoise_3.pv)
+![](Jesse/perlinnoise/perlinnoise_4.png)
+[perlinnoise 4](Jesse/perlinnoise/perlinnoise_4.pv)
+![](Jesse/perlinnoise/perlinnoise_5.png)
+[perlinnoise 5](Jesse/perlinnoise/perlinnoise_5.pv)
+![](Jesse/perlinnoise/perlinnoise_6.png)
+[perlinnoise 6](Jesse/perlinnoise/perlinnoise_6.pv)
+
 
 ## Recursive functions
-            
+                        
+![](Jesse/recursivefunctions/function1.png)
+[recursivefunctions 1](Jesse/recursivefunctions/function1.pv)
+![](Jesse/recursivefunctions/function2.png)
+[recursivefunctions 2](Jesse/recursivefunctions/function2.pv)
+![](Jesse/recursivefunctions/function3.png)
+[recursivefunctions 3](Jesse/recursivefunctions/function3.pv)
+![](Jesse/recursivefunctions/function4.png)
+[recursivefunctions 4](Jesse/recursivefunctions/function4.pv)
+![](Jesse/recursivefunctions/function5.png)
+[recursivefunctions 5](Jesse/recursivefunctions/function5.pv)

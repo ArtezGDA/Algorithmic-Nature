@@ -1,0 +1,44 @@
+size(512, 512)
+background(0)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(0)
+fill(1)
+x = WIDTH / 2
+y = HEIGHT / 2
+
+direction = 0
+
+for i in range(16):
+    s = fib(i) * 10
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    if direction == 0:
+        oval(x, y, s, 25)
+        fill("white")
+        x = x + s
+        y = y + s
+    elif direction == 270:
+        oval(x - s, y, 25, s)
+        x = x - s
+        y = y + s
+    elif direction == 180:
+        fill("white")
+        oval(x - s, y - s, s, 25)
+        x = x - s
+        y = y - s
+    elif direction == 90:
+        oval(x, y - s, 25, s)
+        fill("white")
+        x = x + s
+        y = y - s
+        
+    direction = direction - 90
+    if (direction == - 90):
+        direction = 270

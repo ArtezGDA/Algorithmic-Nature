@@ -51,6 +51,6 @@ def draw():
 
     # manipulate the segments array:
     # Add new position at the beginning
-    segments.insert(0, new_pos)
+    segments.insert(0, (x, y))
     # Remove last position at the end
     segments.pop(n)

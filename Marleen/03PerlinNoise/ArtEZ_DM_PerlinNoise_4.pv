@@ -1,0 +1,19 @@
+size(200, 200)
+background(0)
+import noise
+
+size(200, 200)
+background(1)
+fill(0)
+
+for y in range(0, HEIGHT, 1):
+    for x in range(0, HEIGHT, 7):
+        z = noise.snoise2((x * 0.2), (y * 0.02), octaves=5)
+        # z = z * 20
+        x_3d = x * 5 + y * 01
+        y_3d = y * 0.5 - z * 0.5
+        star(x_3d, y_3d, y+5, y)
+
+
+    
+export('PerlinNoise4.png')

@@ -1,0 +1,32 @@
+size(200, 200)
+background(0)
+stroke (1)
+
+x = WIDTH / 2
+y = HEIGHT / 2
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    if depth > 0:
+        segment(x2, y2, -20, 20, depth - 1)
+        segment(x2, y2, -10, 30, depth - 1)
+    return (x2, y2)
+
+segment(100, 200, 100, 40, 6)
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    if depth > 0:
+        segment(x2, y2, +20, 20, depth - 1)
+        segment(x2, y2, 10, 30, depth - 1)
+    return (x2, y2)
+
+segment(100, 200, -100, 40, 6)
+
+
+
+

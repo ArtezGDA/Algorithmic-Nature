@@ -1,4 +1,4 @@
-size(600, 600)
+size(200, 200)
 background(0.1)
 
 # Fibonacci as a recursive function
@@ -9,7 +9,7 @@ def fib(n):
 
 stroke(1)
 strokewidth(4)
-fill(4.0, 2.0, 0.2)
+fill(0.4)
 x = 0
 y = 0
 for i in range(15, 0, -1):

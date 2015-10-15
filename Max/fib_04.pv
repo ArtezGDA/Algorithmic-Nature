@@ -1,4 +1,4 @@
-size(512, 512)
+size(200, 200)
 background(0.2)
 
 # Fibonacci as a recursive function
@@ -8,7 +8,7 @@ def fib(n):
     return fib(n - 1) + fib(n - 2)
 
 stroke(1)
-fill(0.3, 0.4, 0.8)
+fill(0)
 x = 300
 y = 300
 for i in range(12, 0, -1):
@@ -16,26 +16,48 @@ for i in range(12, 0, -1):
     s = fib(i)
     # Start at bottom right corner
     # (calculate the from position by using x - s)
-    rect(x - s, y - s, s, s)
+    ellipse(x - s, y - s, s, s)
     
 stroke(1)
-fill(0.3, 0.2, 0.7)
+fill(0)
 x = 200
 y = 200
-for i in range(12, 0, -1):
+for i in range(12, 0, -2):
     # variable s to optimize for speed
     s = fib(i)
     # Start at bottom right corner
     # (calculate the from position by using x - s)
-    rect(x - s, y - s, s, s)
+    ellipse (x - s, y - s, s, s)
     
 stroke(1)
 fill(0.2)
 x = 100
 y = 100
-for i in range(12, 0, -1):
+for i in range(12, 0, -7):
     # variable s to optimize for speed
     s = fib(i)
     # Start at bottom right corner
     # (calculate the from position by using x - s)
-    rect(x - s, y - s, s, s)
+    ellipse(x - s, y - s, s, s)
+    
+stroke(1)
+fill(0.2)
+x = 100
+y = 100
+for i in range(12, 0, -4):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    ellipse(x - s, y - s, s, s)
+
+stroke(1)
+fill(0.2)
+x = 50
+y = 50
+for i in range(12, 0, -4):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    ellipse(x - s, y - s, s, s)

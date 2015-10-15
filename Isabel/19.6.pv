@@ -1,0 +1,50 @@
+
+
+size(1000, 1000)
+background(0)
+stroke (1)
+
+# start position
+
+x = 10
+y = 500
+z= 1*y
+w= 10-x
+
+
+for i in range(900):
+    # next x is next segment
+    # next y is random + or - 10 
+    
+    w2 = x + random(1)
+    x2 = z + (WIDTH) / 9
+    y2 = w + random(9) - y
+    z2 = 1 - w
+    
+    nofill()
+    #oval (x, y, x2, y2)
+    #oval (30, y, x2, y2)
+    #oval (w, 90, x2, z2)
+    #oval (x, w, y, 100)
+    rect (y, x, x2, x2)
+    rect (x, y, y2, x2)
+    rect (20, x, x2, x2)
+    #rect (30, y, y2, x2)
+    #rect (10, 10, w2, x2)
+    #poly (z, z, x2, sides=8)
+    #poly (x, y, x2, sides=6)
+    #poly (y, x, y2, sides=3)
+   # poly (y, w2, z2, sides=12)
+    #poly (x, y, z2, sides=12)
+
+    x = x2
+    y = y2
+    z = z2
+    w = w
+    
+
+
+
+
+
+

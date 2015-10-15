@@ -9,7 +9,7 @@ def setup():
 
 def draw():
     global t
-    stroke("#009")
+    stroke("#000")
     t = t + 0.10
     for x in range(WIDTH):
         y = noise.snoise2((x * 20), t, octaves=8)

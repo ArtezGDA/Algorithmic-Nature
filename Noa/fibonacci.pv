@@ -1,0 +1,31 @@
+size(512, 512)
+background(0.8)
+
+
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+# Golden ratio
+def golden_ratio(n):
+    return fib(n) / (fib(n - 1) * 1.0)
+
+# divide by the Golden ratio
+def divide(total):
+    gr = golden_ratio(3)
+    part1 = total / gr
+    part2 = total - part1
+    return part1, part2
+
+steps = 20
+remain = WIDTH
+fromX = 0
+for i in range(steps):
+    fill(1.0 - i / float(steps))
+    w1, w2 = divide(remain)
+    rect(fromX, 100, w2, 200)
+    fromX += w2
+    remain = w1

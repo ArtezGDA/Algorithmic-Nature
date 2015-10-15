@@ -1,0 +1,15 @@
+size(200, 200)
+
+for i in range(647):
+    x = random(7*100)
+    y = random(20*100)
+    nofill()
+    stroke(2)
+    strokewidth(3)
+    
+    rect(700,random(i + y), 5, random(x+y))
+    stroke(0) 
+    rect(random(i*10), random(x), random(x), 6 * 54)
+    
+
+export('Random6.png')

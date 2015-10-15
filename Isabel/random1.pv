@@ -7,8 +7,8 @@ background(0)
 # the outer for j-loop repeats those bars
 # vertically.
 
-fill (2,3,0)
-for j in range(40):
+fill (1)
+for j in range(100):
     for i in range(40):
         x = random (WIDTH)    
         

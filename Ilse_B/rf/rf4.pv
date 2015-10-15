@@ -1,0 +1,21 @@
+size(200, 200)
+background(0.5)
+stroke (0)
+font ("helvetica", 10)
+
+y = 10
+x = 10
+
+for j in range(15):
+    y = 19
+    x = 10 + (j*25)
+    
+    for i in range(30):
+        f = 5 + (i*random(5))
+        y2 = y + (WIDTH - 20) /30
+        x2 = x + random(20) - 10
+        font ("helvetica", f)
+        text ("ilse", 20, 1, x2, y2)
+        y = y2
+        x = x2
+

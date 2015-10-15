@@ -1,0 +1,16 @@
+size(200, 200)
+background(0)
+
+def fib(n):
+    if n < 1:
+        return 1
+    return fib (n - 1) + fib(n - 2)
+    
+fill('white', 'black')
+stroke(0)
+y = 180
+for i in range(12):
+    s = fib(i)
+    print "%d: %d" % (i + 5, s)
+    choice([oval])(100, y, -s, s)
+    y += -s

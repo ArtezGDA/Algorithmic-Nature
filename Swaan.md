@@ -10,6 +10,8 @@
 [drawing3](Swaan/test6.pv)
 ![](Swaan/test7.png)
 [drawing4](Swaan/test7.pv)
+![](Swaan/test9.png)
+[drawing5](Swaan/test.pv)
 
 ## Random
 ![](Swaan/test3.png)
@@ -20,6 +22,8 @@
 [drawing3](Swaan/test5.pv)
 ![](Swaan/test8.png)
 [drawing4](Swaan/test8.pv)
+![](Swaan/test10.png)
+[drawing5](Swaan/test10.pv)
 
 ## Perlin Noise
 ![](Swaan/perlinnoise1.png)
@@ -30,8 +34,28 @@
 [drawing3](Swaan/perlinnoise3.pv)
 ![](Swaan/perlinnoise4.png)
 [drawing4](Swaan/perlinnoise4.pv)
+![](Swaan/perlinnoise4.1.png)
+[drawing4.1](Swaan/perlinnoise4.pv)
 ![](Swaan/perlinnoise5.png)
 [drawing5](Swaan/perlinnoise5.pv)
 
 ## Recursive functions
-            
+![](Swaan/recursivefunctions1.png)
+[drawing1](Swaan/recursivefunctions1.pv)
+![](Swaan/recursivefunctions2.png)
+[drawing2](Swaan/recursivefunctions2.pv)
+![](Swaan/recursivefunctions3.png)
+[drawing3](Swaan/recursivefunctions3.pv)
+![](Swaan/recursivefunctions4.png)
+[drawing4](Swaan/recursivefunctions4.pv)
+![](Swaan/recursivefunctions5.png)
+[drawing5](Swaan/recursivefunctions5.pv)
+![](Swaan/recursivefunctions6.png)
+[drawing6](Swaan/recursivefunctions6.pv)
+![](Swaan/recursivefunctions7.png)
+[drawing7](Swaan/recursivefunctions7.pv)
+![](Swaan/recursivefunctions8.png)
+[drawing8](Swaan/recursivefunctions8.pv)
+![](Swaan/recursivefunctions9.png)
+[drawing9](Swaan/recursivefunctions9.pv)
+          

@@ -1,7 +1,0 @@
-size(512, 512)
-background(1)
-
-for i in range(200):
-    x = random(WIDTH)
-    y = random(HEIGHT)
-    oval(x, y, 3, 3)

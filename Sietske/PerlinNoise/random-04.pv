@@ -3,7 +3,7 @@ size(512, 512)
 
 
 def so(x, y):
-    clr =  color(random(2, 3), 1, random(4))
+    clr =  color(1)
             
     with fill(clr), stroke(.2), pen(1):
         with transform(CORNER):

@@ -1,0 +1,23 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+# start position
+x = 10
+y = 100
+
+for i in range(20):
+    x2 = x + (WIDTH - 20) / 20
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    #line (x2, y2, 20, 20)
+    
+#for i in range(40):
+    x3 = (x - (WIDTH - 20) / 20) *-1
+    y3 = (y - random(20) - 10) *-10
+    line (x3, -y3, x, y)
+    line (x, y, x3, y3)
+    
+    x = x2
+    y = y2
+    

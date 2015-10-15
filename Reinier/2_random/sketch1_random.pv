@@ -1,5 +1,5 @@
 size(512, 512)
-background("#999", "blue")
+background("white", "black")
 
 
 for i in range(200):

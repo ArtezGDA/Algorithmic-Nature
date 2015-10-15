@@ -1,0 +1,56 @@
+size(200, 200)
+background(0)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+
+fontsize(30)
+fill(1)
+x = 100
+y = 100
+for i in range(10, 4, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    
+    #rotate(100)
+    text("//MDCoding//", y - s, x - s )
+    #scale(0.6)
+    rotate(20)
+    
+    
+fontsize(3)
+fill(0.5)
+x = 150
+y = 100
+for i in range(20, 2, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    
+    #rotate(100)
+    text("SQUAD", y - s, x - s )
+    rotate(35)
+    #scale(0.6)
+    
+    fontsize(10)
+fill(0.5)
+x = 500
+y = 300
+for i in range(20, 2, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    
+    #rotate(100)
+    text("fi fi fi fibo", y - s, x - s )
+    #scale(0.6)
+    
+    

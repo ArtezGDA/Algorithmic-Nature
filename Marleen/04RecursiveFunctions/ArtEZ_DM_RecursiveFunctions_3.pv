@@ -1,0 +1,27 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+def drawSplit(x, y, w, h, horizontal):
+    shouldSplitAgain = False;
+    if h:
+        h = h / 2.4
+        x = x + h
+        x2 = random(600) + y
+        y2 = x
+        if x > 20:
+            shouldSplitAgain = True
+    else:
+        w = w / 20
+        x = w + x
+        x2 = h
+        y2 = h + random(600)
+        if w > 7:
+            shouldSplitAgain = True
+    line(x, y, x2, x2)
+    if shouldSplitAgain:
+        drawSplit(x, y, w, h, not horizontal) 
+
+drawSplit(0, 0, 5, HEIGHT, True)
+
+export('RecursiveFunction3.png')

@@ -1,0 +1,17 @@
+size(200, 200)
+background(1)
+
+def fib(n):
+    if n < 19:
+        return 150
+    return fib (n - 1) + fib(n - 2)
+    
+stroke(0)
+fill(1)
+y = 60
+for i in range(17):
+    s = fib(i)
+    print "%d: %d" % (i + 1, s)
+    rotate(350)
+    rect(45 ,15 * 4, s, s)
+    y += s

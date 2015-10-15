@@ -1,0 +1,19 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+x = 70
+y = 60
+
+def segment(x, y, deviation):
+    x2 = x - random(deviation) + (deviation / 8)
+    y2 = y + random(deviation) + (deviation / 9)
+    line (y, x, x, y)
+    return (x2, y2)
+
+for i in range(100):
+    (x, y) = segment(x, y, 10)
+
+    export('Recursive_functions_2.png')
+    
+    

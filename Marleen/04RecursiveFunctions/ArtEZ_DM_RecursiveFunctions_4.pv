@@ -1,0 +1,137 @@
+size(200, 200)
+background(0)
+stroke (1)
+
+
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 10 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 50
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 30 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 40
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 50 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 30
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 70 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 20
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 90 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 10
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 110 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 8
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 130 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 6
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+
+        
+x = 10
+y = 10
+
+for j in range(5):
+    x = 10    
+    y = 150 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 4
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+x = 0
+y = -10
+
+for j in range(5):
+    x = 10    
+    y = 170 + (j * 1)    
+    for i in range(6):
+        x2 = x + (WIDTH - 20) / 2
+        y2 = y + random(20) - 10
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+
+
+
+
+
+
+
+export('RecursiveFunction4.png')

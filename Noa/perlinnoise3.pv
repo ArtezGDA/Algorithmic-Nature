@@ -1,0 +1,34 @@
+size(512, 512)
+background(1)
+import noise
+global t
+
+fill()
+
+def setup():
+    size(200, 200)
+    global t
+    background(1)
+    t = 0
+
+def draw():
+    global t
+    stroke(0)
+    t = t + t
+    for x in range(WIDTH):
+        y = noise.snoise2((x * 0.10) + t, 0.1, octaves=4)
+        y *= HEIGHT / 1.0
+        y += HEIGHT / 1.0
+        line(random(x), HEIGHT, random(x), HEIGHT - y)
+
+def draw():
+    global t
+    stroke(0)
+    t = t + t
+    for x in range(WIDTH):
+        y = noise.snoise2((x * 0.10) + t, 0.1, octaves=4)
+        y *= HEIGHT / 0.5
+        y += HEIGHT / 3.0
+        line(random(x), HEIGHT, random(x), HEIGHT - y)
+
+

@@ -1,5 +1,5 @@
 size(512, 512)
-background(0.7, 0.1, 0.4)
+background(0)
 
 # Fibonacci as a recursive function
 def fib(n):
@@ -17,4 +17,4 @@ for i in range(14, 0, -1):
     s = fib(i)
     # Start at bottom right corner
     # (calculate the from position by using x - s)
-    rect(y - s, x - s, s*2, s*2)
+    rect(y - s, x - s, s+250, s+250)
