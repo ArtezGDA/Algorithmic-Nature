@@ -33,6 +33,9 @@
 [drawing 3](Leonie/per/perlinnoise3pv.pv)
 ![](Leonie/per/perlinnoise4.png)
 [drawing 4](Leonie/per/perlinnoise4.pv)
+![](Leonie/per/perlinnoise5.png)
+[drawing 5](Leonie/per/perlinnoise5.pv)
+
 
 ## Recursive functions
             
