@@ -5,27 +5,22 @@ stroke (1)
 x = WIDTH / 2
 y = HEIGHT / 2
 
-def segment(x, y, x_direction, height, depth):
+def segment(x, y, x_direction, height, depth, right):
     x2 = x + x_direction
     y2 = y - height
     line (x, y, x2, y2)
     if depth > 0:
-        segment(x2, y2, -20, 20, depth - 1)
-        segment(x2, y2, -10, 30, depth - 1)
+        richting = 0
+        if right:
+            richting = -1
+        else:
+            richting = 1
+        segment(x2, y2, 20 * richting, 20, depth - 1, right)
+        segment(x2, y2, 10 * richting, 30, depth - 1, right)
     return (x2, y2)
 
-segment(100, 200, 100, 40, 6)
-
-def segment(x, y, x_direction, height, depth):
-    x2 = x + x_direction
-    y2 = y - height
-    line (x, y, x2, y2)
-    if depth > 0:
-        segment(x2, y2, +20, 20, depth - 1)
-        segment(x2, y2, 10, 30, depth - 1)
-    return (x2, y2)
-
-segment(100, 200, -100, 40, 6)
+segment(100, 200, 100, 40, 6, True)
+segment(100, 200, -100, 40, 6, False)
 
 
 
