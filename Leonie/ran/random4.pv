@@ -1,0 +1,14 @@
+size(500, 500)
+
+for i in range(400):
+    x = random(1*10)
+    y = random(1+3)
+    nofill()
+    stroke(1)  
+    rect(0,random(i), random(i*10), 100)
+ 
+    stroke(0) 
+    oval(random(i/100), random(y), random(i), 400)
+    
+export("3.2.png")
+
