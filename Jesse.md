@@ -1,6 +1,6 @@
 # Jesse's Sketches
 
-## Fibonacci
+##  Fibonacci
 
 ![](Jesse/fibonacci/fib1.png)
 [fibonacci 1](Jesse/fibonacci/fib1.pv)
@@ -15,7 +15,7 @@
 
 
 
-## Random
+##  Random
 
 ![](Jesse/random/random1.png)
 [random 1](Jesse/random/random1.pv)
@@ -29,7 +29,7 @@ random 4](Jesse/random/random4.pv)
 [random 5](Jesse/random/random5.pv)
 
 
-## Perlin Noise
+##  Perlin Noise
 
 
 ![](Jesse/perlinnoise/perlinnoise1.png)
@@ -45,7 +45,7 @@ random 4](Jesse/random/random4.pv)
 
 
 
-## Recursive functions
+##  Recursive functions
                         
 ![](Jesse/recursivefunctions/function1.png)
 [recursivefunctions 1](Jesse/recursivefunctions/function1.pv)
