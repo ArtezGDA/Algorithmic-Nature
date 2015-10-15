@@ -1,0 +1,18 @@
+size (200, 200)
+import noise
+
+print noise.pnoise1(0.02)
+print noise.pnoise1(0.04)
+
+for i in range(10):
+    print noise.pnoise1(0.2 + (i * 0.02))
+
+background(1)
+stroke(0)
+for x in range(WIDTH):
+    y = noise.pnoise1(x * 0.02, octaves=8)
+    y *= HEIGHT / 2.0
+    y += HEIGHT / 2.0
+    oval(x, y, 1, 1)
+    
+export ('04perlinangie.png')
