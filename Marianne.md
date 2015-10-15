@@ -1,18 +1,30 @@
 # Marianne's Sketches
 
+## Random
+![](Marianne/Random/1.png)
+
+![](Marianne/Random/2.png)
+
+![](Marianne/Random/3.png)
+[drawing 3](Marianne/Random/random3.pv)
+
+
 ## Fibonacci
-<!--![](Marianne/imagefile.png)-->
-<<<<<<< Updated upstream
+![](Marianne/Fibonacci/Fibonacci1.png)
 
-=======
-![](Marianne/Fibonacci/1.png)
-![](Marianne/Fibonacci/2.png)
-![](Marianne/Fibonacci/3.png)
-<<<<<<< Updated upstream
-=======
+![](Marianne/Fibonacci/Fibonacci2.png)
+[drawing 2](Marianne/Fibonacci/Fibonacci2.pv)
 
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+![](Marianne/Fibonacci/Fibonacci3.png)
+[drawing 3](Marianne/Fibonacci/Fibonacci3.pv)
+
+![](Marianne/Fibonacci/Fibonacci4.png)
+[drawing 4](Marianne/Fibonacci/Fibonacci4.pv)
+
+![](Marianne/Fibonacci/Fibonacci5.png)
+[drawing 5](Marianne/Fibonacci/Fibonacci5.pv)
+
+
 
 ## Perlin Noise
 

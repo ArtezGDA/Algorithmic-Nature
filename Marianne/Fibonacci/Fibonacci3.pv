@@ -1,0 +1,20 @@
+size(512, 512)
+background(1)
+
+# These 2 for-loops are 'nested'
+# Read from the inside out, the for i-loop
+# draws a horizontal bar of squares,
+# the outer for j-loop repeats those bars
+# vertically.
+
+for j in range(100):
+    for i in range(100):
+        
+        # rotate the squares based on i and j
+        rotate((3 * i) + (1 * j))
+        
+        # position the square based on i and j
+        poly(10 + i * 5, 10 + j * 5, 2.3)
+        
+        # reset is needed to clear the 'translation matrix'
+        reset()
