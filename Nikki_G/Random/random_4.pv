@@ -1,14 +1,3 @@
-size(200, 200)
 
-for i in range(200):
-    x = random(1*10)
-    y = random(1*3)
-    nofill()
-    stroke(0)  
-    rect(0,random(i), random(i*10), 200)
- 
-    stroke(0.5) 
-    rect(random(i*10), random(y), random(i), 200)
-
-
+    
 

@@ -58,6 +58,11 @@
 [recursive 7 ](Martijn/recursion4.pv)
 ![](Martijn/recursion2.png)
 [recursive 8 ](Martijn/recursion2.pv)
+![](Martijn/recursion20.png)
+[recursive 9 ](Martijn/recursion20.pv)
+![](Martijn/recursion22.png)
+[recursive 9 ](Martijn/recursion22.pv)
+
 
 
 
