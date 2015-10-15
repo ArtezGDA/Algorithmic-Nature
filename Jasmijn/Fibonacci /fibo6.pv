@@ -1,0 +1,23 @@
+size(512, 512)
+background(1)
+
+
+zwart = True
+
+for j in range(10):
+    for i in range(11):
+        
+        # Set the color based on that variable
+        if zwart:
+            fill(0)
+        else:
+            fill(1)
+            
+        # Inverse the variable (if it was true, now become false and vice versa)    
+        zwart = not zwart
+        
+        rotate((10 * i) + (40 * j))
+        poly(49 + i * 70, 100 + j * 90, 100)
+        reset()
+
+export ("fibo6.png")

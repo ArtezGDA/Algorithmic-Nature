@@ -1,0 +1,23 @@
+size(200, 200)
+background(0)
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib (n - 1) + fib(n - 2)
+    
+stroke(1)
+fill(0,8)
+y = -70
+for i in range(19):
+    s = fib(i)
+    print "%d: %d" % (i + 2, s)
+    transform(CORNER)
+    translate(2, 1)
+    oval(-s+300, y, -s, -s)
+  
+    y += s
+    
+    
+    
+    export ("fibo5.png")

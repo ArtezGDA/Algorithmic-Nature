@@ -1,0 +1,20 @@
+background(1)
+
+for i in range (50):
+    
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    poly(x,y,y)
+    fill(1)
+    stroke(0)
+
+for i in range (2):
+        
+    a = random (HEIGHT)
+    b = random (WIDTH)
+    oval (a, b, a, a)
+    fill(0)
+    stroke(0.8)
+    
+    
+export("random5.png")

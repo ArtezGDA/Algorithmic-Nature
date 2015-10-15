@@ -1,0 +1,23 @@
+size(512, 512)
+background(1)
+
+import noise
+
+print noise.pnoise1(0.01)
+print noise.pnoise1(0.01)
+
+
+for i in range(10):
+    print noise.pnoise1(0.01 +(i+0.01))
+    
+background(0)
+stroke(0.8)
+fill(9, 8, 1)
+for x in range(WIDTH):
+    y= noise.pnoise1(x * 0.01, octaves=1)
+    y*= HEIGHT / 1.0
+    y+= HEIGHT / 9.0
+    rect(x,y,90,300)
+    
+    
+    export ("perlin5.png")
