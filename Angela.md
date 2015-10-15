@@ -21,8 +21,25 @@
 
 
 ## Perlin Noise
-<!--![](Angela/fibonacci/07fibonacciangie.png)
-[code](Angela/fibonacci/07fibonacciangie.pv) -->
+![](Angela/perlinnoise/01perlinangie.png)
+[code](Angela/perlinnoise/01perlinnoiseangie.pv)
+
+![](Angela/perlinnoise/02perlinangie.png)
+[code](Angela/perlinnoise/02perlinnoiseangie.pv)
+
+![](Angela/perlinnoise/03perlinangie.png)
+[code](Angela/perlinnoise/03perlinnoiseangie.pv)
+
+![](Angela/perlinnoise/04perlinangie.png)
+[code](Angela/perlinnoise/04perlinnoiseangie.pv)
+
+![](Angela/perlinnoise/05perlinangie.png)
+[code](Angela/perlinnoise/05perlinnoiseangie.pv)
+
+![](Angela/perlinnoise/06perlinangie.png)
+[code](Angela/perlinnoise/06perlinnoiseangie.pv)
+
+
 
 ## Recursive functions
 ![](Angela/recursive/01recursiveangie.png)![](Angela/recursive/01arecursiveangie.png) [code](Angela/recursive/01recursiveangie.pv)
