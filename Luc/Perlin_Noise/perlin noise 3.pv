@@ -1,0 +1,18 @@
+
+try:
+    noise = ximport("noise")
+except ImportError:
+    
+    noise = ximport("__init__")
+    reload(noise)
+
+size(200,200)
+
+noise.seed()
+w = 200
+h = 200
+for i in range(w):
+	for j in range(h):
+		d = noise.generate(i, j, width=w, height=h, scale=2 )
+	
+		ellipse(i*10, j*10, 1, 1)
