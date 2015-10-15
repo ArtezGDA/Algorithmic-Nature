@@ -2,7 +2,6 @@
 
 ## Fibonacci
 ![](Noa/fibonacci.png)
-![](Noa/fibonacci1.png)
 ![](Noa/fibonacci2.png)
 ![](Noa/fibonacci3.png)
 ![](Noa/fibonacci4.png)
@@ -19,7 +18,8 @@
 ![](Noa/perlinnoise.png)
 ![](Noa/perlinnoise2.png)
 ![](Noa/perlinnoise3.png)
-
+![](Noa/perlinnoise4.png)
+![](Noa/perlinnoise5.png)
 
 
 ## Recursive functions
