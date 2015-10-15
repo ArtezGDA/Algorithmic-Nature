@@ -1,41 +1,17 @@
 size(200, 200)
 background(0)
+color(RGB)
 
+kleur = color(random (0), random(0), random(0), 10)
 
-
-
-a=1
-d=random(choice((0.7,2)))
-
-for i in range(100):
-    x = random(WIDTH)
-   
-    pen(d)
-    line(x, 200, 0, 0)
-    stroke(0.6, 0.4)
- 
-for j in range(100):
-    x = random(WIDTH)
-   
-    pen(d)
-    line(x, 0, 0, 200)
-    stroke(0, 0.1)
-    stroke(choice(('#ff0000','#00ff00','#0000ff','#000000')))
-   
-    
-for k in range(100):
-    x = random(WIDTH)
-   
-    pen(d)
-    line(x, 0, 200, 200)
-    stroke(0.6, 0.4)
-    
-    
-for l in range(100):
-    x = random(WIDTH)
-   
-    pen(d)
-    rect(x, 200, 200, 0)
-    stroke(choice(('#ff0000','#00ff00','#0000ff','#000000')))
-
-
+for i in range(50):
+    with bezier(430,10,fill=None):
+        stroke(0.5)
+        stroke(0.5)
+        arcto(0, 200-i*10)
+        
+for i in range(150):
+    with bezier(400,-1,fill=None):
+        stroke(0.5)
+        stroke(random())
+        arcto(0, 1-i*9)
