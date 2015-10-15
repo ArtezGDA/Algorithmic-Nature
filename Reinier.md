@@ -21,12 +21,12 @@
 ![](Reinier/2_random/sketch4_random.png)
 ![](Reinier/2_random/sketch5_random.png)
 ![](Reinier/2_random/sketch6_random.png)
-[sketch 1](2_Reinier/random/sketch1_random.pv)
-[sketch 2](2_Reinier/random/sketch2_random.pv)
-[sketch 3](2_Reinier/random/sketch3_random.pv)
-[sketch 4](2_Reinier/random/sketch4_random.pv)
-[sketch 5](2_Reinier/random/sketch5_random.pv)
-[sketch 6](2_Reinier/random/sketch6_random.pv)
+[sketch 1](Reinier/2_random/sketch1_random.pv)
+[sketch 2](Reinier/2_random/sketch2_random.pv)
+[sketch 3](Reinier/2_random/sketch3_random.pv)
+[sketch 4](Reinier/2_random/sketch4_random.pv)
+[sketch 5](Reinier/2_random/sketch5_random.pv)
+[sketch 6](Reinier/2_random/sketch6_random.pv)
 
 ## Perlin Noise
 ![](Reinier/3_pn/pn_sketch_1.png)
