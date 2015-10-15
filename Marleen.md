@@ -23,10 +23,15 @@ I# Marleen's Sketches
 [drawing 4](Marleen/02Random/ArtEZ_DM_Random_4.pv)
 ![](Marleen/02Random/Random6.png) 
 [drawing 5](Marleen/02Random/ArtEZ_DM_Random_6.pv)
+![](Marleen/02Random/Random7.png) 
+[drawing 6](Marleen/02Random/ArtEZ_DM_Random_7.pv)
+![](Marleen/02Random/Random8.png) 
+[drawing 7](Marleen/02Random/ArtEZ_DM_Random_8.pv)
+![](Marleen/02Random/Random9.png) 
+[drawing 8](Marleen/02Random/ArtEZ_DM_Random_9.pv)
+
 
 ## Perlin Noise
-![](Marleen/03PerlinNoise/PerlinNoise1.png) 
-[drawing 1](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_1.pv) klopt niet
 ![](Marleen/03PerlinNoise/PerlinNoise2.png) 
 [drawing 2](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_2.pv)problemen mee
 ![](Marleen/03PerlinNoise/PerlinNoise3.png) 

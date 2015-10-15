@@ -1,0 +1,19 @@
+size(200, 200)
+background(0)
+
+stroke(1)
+for i in range(01):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill(0)
+    rotate(20)
+    star(x, 60, 50, 1)
+
+for i in range(200):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill(0)
+    rotate(0)
+    star(x, y, y, y)
+    
+export('Random7.png')

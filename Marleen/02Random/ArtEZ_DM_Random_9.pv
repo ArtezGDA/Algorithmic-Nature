@@ -1,0 +1,30 @@
+size(200, 200)
+background(0)
+
+stroke(1)
+for i in range(100):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill(0)
+    rotate(0)
+    oval(1, x, x, x)
+    
+    
+    stroke(1)
+for i in range(100):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill(0)
+    rotate(0)
+    oval(x, x, x, 10)
+    
+    stroke(1)
+for i in range(100):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill(0)
+    rotate(0)
+    oval(y, x, 10, 10)
+
+    
+export('Random9.png')
