@@ -3,9 +3,9 @@
 ## Fibonacci
 ![](Noa/fibonacci.png)
 ![](Noa/fibonacci2.png)
+![](Noa/fibonacci5.png)
 ![](Noa/fibonacci3.png)
 ![](Noa/fibonacci4.png)
-![](Noa/fibonacci5.png)
 
 ## Random
 ![](Noa/random1.png)
@@ -23,5 +23,6 @@
 
 
 ## Recursive functions
+![](Noa/rf.png)
             
 [bestandnaam](Noa/bestandsnaam)
