@@ -5,7 +5,7 @@ def setup():
     global x, y, n
     global segments
 
-    size(400, 400)
+    size(200, 200)
     background(1)
     
     # start position

@@ -1,10 +1,10 @@
 size(200, 200)
-background(1)
-stroke (0)
+background("grey")
+stroke (1)
 
 # start position
-x = 300
-y = 300
+x = 100
+y = 100
 
 def segment(x, y, deviation):
     x2 = x + random(deviation) - (deviation / 2)
@@ -17,4 +17,4 @@ def segment(x, y, deviation):
     return (x2, y2)
 
 for i in range(600):
-    (x, y) = segment(x, y, 20)
+    (x, y) = segment(x, y, 200)

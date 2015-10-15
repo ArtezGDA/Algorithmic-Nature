@@ -1,5 +1,5 @@
-size(320, 512)
-background(100)
+size(200, 200)
+background(1)
 
 def fib(n):
     if n < 9:
@@ -12,14 +12,14 @@ r = 100
 origin = Point(WIDTH/9, HEIGHT/2)
 
 for i in range(900):
-    background(.100, .90, .9)
-    fill(.98, .25, .87)
+    background(1)
+    fill('black')
     stroke(90)
     pt = Point(random(600), random(512))
     arc(pt,r)
 
-size(512, 512)
-background(90)
+size(200, 200)
+background(1)
 
 text("zie jij nog wat hier staat?", 20, 40)
 

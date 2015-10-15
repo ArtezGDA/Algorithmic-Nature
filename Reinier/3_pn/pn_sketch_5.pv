@@ -4,7 +4,7 @@ global t
 def setup():
     size(200, 200)
     global t
-    background(1)
+    background(10)
     t = 0
 
 def draw():
