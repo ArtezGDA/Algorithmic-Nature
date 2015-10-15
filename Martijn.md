@@ -4,7 +4,7 @@
 ![](Martijn/fibbonacci.png)
 ![](Martijn/fibbonacci2.png)
 ![](Martijn/fibbonacci4.png)
-![](Martijn/fibonacci2.png)
+![](Martijn/fibonacci.png)
 ![](Martijn/fibbonacci6.png)
 
 
