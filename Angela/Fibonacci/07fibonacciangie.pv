@@ -1,0 +1,23 @@
+size(200, 200)
+background('white')
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(1)
+strokewidth(2)
+fill('white', 'black', 'white',)
+x = 100
+y = 100
+for i in range(15 , 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    rotate(15)
+    star(x , y , s*2, s*2)
+
+export('07afibonacciangie.png')

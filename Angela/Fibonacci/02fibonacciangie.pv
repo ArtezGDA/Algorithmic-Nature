@@ -1,0 +1,18 @@
+size(200, 200)
+background('white')
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib (n - 2) + fib(n - 3)
+    
+fill('black', 'white', 'black')
+y = 8
+for i in range(15):
+    s = fib(i)
+    print "%d: %d" % (i + 1, s)
+    choice([rect, oval])(55, y, s, s)
+    y += s
+
+
+    export('02fibonacciangie.png')

@@ -1,0 +1,20 @@
+size(200, 200)
+background('black')
+stroke ('white')
+
+x = +50
+y = +20
+z= 1-y
+w= 10-x
+
+for i in range(100):
+    
+    w2 = x + random(50)
+    x2 = z + (WIDTH) / 1
+    y2 = w + random(200) - y
+    z2 = 50 - w
+
+    nofill ()
+    rect(0, 0, 200, y2)
+    
+export('07crandomangie.png')

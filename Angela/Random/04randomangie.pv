@@ -1,0 +1,33 @@
+size(200, 200)
+background("white")
+
+
+for i in range(150):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(0, y, 10, 2)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(10, y, 30, 2)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(40, y, 70, 3)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(110, y, 20, 3)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(130, y, 10, 3)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(140, y, 50, 3)
+    
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rect(190, y, 10, 3)    
+export ('04arandomangie.png')

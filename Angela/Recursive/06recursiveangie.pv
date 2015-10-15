@@ -1,0 +1,22 @@
+size(200, 200)
+background(1)
+stroke ('black')
+font ("tahoma", 10)
+
+y = 0
+x = 0
+
+for j in range(2):
+    y = 15
+    x = 15 + (j*20)
+    
+    for i in range(100):
+        f = 5 + (i*random(5))
+        y2 = y + (WIDTH - 20) /30
+        x2 = x + random(40) - 10
+        font ("helvetica", f)
+        text ("recursive", 20, 1, x2, y2)
+        y = y2
+        x = x2
+        
+export ('06recursiveangie.png')

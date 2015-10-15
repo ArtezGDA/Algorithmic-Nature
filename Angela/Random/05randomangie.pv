@@ -1,0 +1,10 @@
+size(200, 200)
+background('black')
+
+for i in range(500):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill('white', 'black', 'white', 'black')
+    oval(x, y, 7, 500)
+    
+export ('05randomangie.png')
