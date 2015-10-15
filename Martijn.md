@@ -62,6 +62,8 @@
 [recursive 9 ](Martijn/recursion20.pv)
 ![](Martijn/recursion22.png)
 [recursive 9 ](Martijn/recursion22.pv)
+![](Martijn/recursion24.png)
+[recursive 10 ](Martijn/recursion24.pv)
 
 
 

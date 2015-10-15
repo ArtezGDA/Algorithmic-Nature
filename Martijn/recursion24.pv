@@ -11,15 +11,15 @@ def segment(x, y, x_direction, height, depth):
     x2 = x -20
     y2 = y - height
     nofill()
-    rect(x, y, x2, y2)
-    rotate(70)
+    star(x, y, x2, y2)
+    rotate(20)
     
     
     if depth > 0:
-        new_h_l = height - 10 + random(10)
-        new_h_r = height - 10 + random(10)
-        left = x_direction - 15 - random(5)
-        right = x_direction + 15 + random(5)
+        new_h_l = height - 5 + random(10)
+        new_h_r = height - 5 + random(0)
+        left = x_direction - 5 - random(5)
+        right = x_direction + 5 + random(5)
         segment(x2, y2, left, new_h_l, depth - 1)
         segment(x2, y2, right, new_h_r, depth - 1)
     
