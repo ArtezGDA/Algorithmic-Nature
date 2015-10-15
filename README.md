@@ -15,6 +15,7 @@ This repository holds some example files, produced and demonstrated in class:
 - [Anne](Anne.md)
 - [Bella](Bella.md)
 - [Esmee](Esmee.md)
+- [Heike](Heike.md)
 - [Ilse_B](Ilse_B.md)
 - [Ilse_Z](Ilse_Z.md)
 - [Jasmijn](Jasmijn.md)
