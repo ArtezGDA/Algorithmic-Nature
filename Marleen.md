@@ -26,15 +26,17 @@ I# Marleen's Sketches
 
 ## Perlin Noise
 ![](Marleen/03PerlinNoise/PerlinNoise1.png) 
-[drawing 1](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_1.pv)
+[drawing 1](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_1.pv) klopt niet
 ![](Marleen/03PerlinNoise/PerlinNoise2.png) 
-[drawing 2](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_2.pv)
+[drawing 2](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_2.pv)problemen mee
 ![](Marleen/03PerlinNoise/PerlinNoise3.png) 
 [drawing 3](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_3.pv)
 ![](Marleen/03PerlinNoise/PerlinNoise4.png) 
 [drawing 4](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_4.pv)
 ![](Marleen/03PerlinNoise/PerlinNoise5.png) 
 [drawing 5](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_5.pv)
+![](Marleen/03PerlinNoise/PerlinNoise6.png) 
+[drawing 6](Marleen/03PerlinNoise/ArtEZ_DM_PerlinNoise_6.pv)problemen mee
 
 
 
@@ -46,4 +48,6 @@ I# Marleen's Sketches
 ![](Marleen/04RecursiveFunctions/RecursiveFunction3.png) 
 [drawing 3](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_3.pv)
 ![](Marleen/04RecursiveFunctions/RecursiveFunction4.png) 
-[drawing 3](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_4.pv)
+[drawing 4](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_4.pv)
+![](Marleen/04RecursiveFunctions/RecursiveFunction5.png) 
+[drawing 5](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_5.pv)

@@ -1,0 +1,21 @@
+import noise
+
+def setup():
+    global t
+    size(200, 200)
+    background(100)
+    t = 0
+
+def draw():
+    global t
+    for y in range(0, HEIGHT, 10):
+        for x in range(0, WIDTH, 10):
+            z = noise.snoise3((x * 2), (y * 1), (t * 0.4), octaves=10)
+            fill(z)
+            poly(y, x, 20,)
+            z = noise.snoise3((x * x), (y * x), (t * x), octaves=2)
+            fill(0.5 + (z * 0.5))
+            star(x, x, x)
+    t = t + 1
+    
+export('PerlinNoise6.png')
