@@ -1,0 +1,22 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+# start position
+x = WIDTH /1
+y = HEIGHT/200
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height/10
+    
+    star(random(1,40)+x,random(1,)+y,random(1,300)+x2,random(1,250)+y2,random(1,40))
+    rotate(30)
+    if depth > 0:
+        new_h = height - 10
+        segment(x2, y2, 30+y2, new_h, depth - 1)
+        
+    return (x2, y2)
+
+
+segment(x, y, 0, 70, 10)

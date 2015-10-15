@@ -40,4 +40,12 @@
 ## Recursive functions
 ![](Noa/rf.png)
 [Code](Noa/rf.pv)
+![](Noa/rf2.png)
+[Code](Noa/rf2.pv)
+![](Noa/rf3.png)
+[Code](Noa/rf3.pv)
+![](Noa/rf4.png)
+[Code](Noa/rf4.pv)
+![](Noa/rf5.png)
+[Code](Noa/rf5.pv)
             
