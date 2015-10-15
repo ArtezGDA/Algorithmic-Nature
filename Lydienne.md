@@ -37,19 +37,19 @@
 
 ## Perlin Noise
 ![](Lydienne/perlinnoise/perlinnoise1.png)
-[perlinnoise1](Lydienne/perlinnoise1.png)
+[perlinnoise1](Lydienne/perlinnoise/perlinnoise1.pv)
 ![](Lydienne/perlinnoise/perlinnoise2.png)
-[perlinnoise2](Lydienne/perlinnoise2.png)
+[perlinnoise2](Lydienne/perlinnoise/perlinnoise2.pv)
 ![](Lydienne/perlinnoise/perlinnoise3.png)
-[perlinnoise3](Lydienne/perlinnoise3.png)
+[perlinnoise3](Lydienne/perlinnoise/perlinnoise3.pv)
 ![](Lydienne/perlinnoise/perlinnoise4.png)
-[perlinnoise4](Lydienne/perlinnoise4.png)
+[perlinnoise4](Lydienne/perlinnoise/perlinnoise4.pv)
 ![](Lydienne/perlinnoise/perlinnoise5.png)
-[perlinnoise5](Lydienne/perlinnoise5.png)
+[perlinnoise5](Lydienne/perlinnoise/perlinnoise5.pv)
 ![](Lydienne/perlinnoise/perlinnoise6.png)
-[perlinnoise6](Lydienne/perlinnoise6.png)
+[perlinnoise6](Lydienne/perlinnoise/perlinnoise6.pv)
 ![](Lydienne/perlinnoise/perlinnoise7.png)
-[perlinnoise7](Lydienne/perlinnoise7.png)
+[perlinnoise7](Lydienne/perlinnoise/perlinnoise7.pv)
 
 ## Recursive functions
             
