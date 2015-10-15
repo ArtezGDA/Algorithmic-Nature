@@ -4,8 +4,7 @@ seed(0)
 
 # Draw the random numbers in a 'graph'
 background(1)
-color(mode=RGB, range=255)
-fill(0, 255, 0)
+fill(0)
 
 # # Draw lines 
 # for x in range(WIDTH):
