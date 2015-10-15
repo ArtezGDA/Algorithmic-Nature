@@ -16,6 +16,7 @@
 # The NodeBox Noise library
 # http://plotdevice.io/lib/Noise#library
 
+size(200,200)
 import noise
 
 print noise.pnoise1(0.01)
