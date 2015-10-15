@@ -42,8 +42,7 @@ random 4](Jesse/random/random4.pv)
 [perlinnoise 4](Jesse/perlinnoise/perlinnoise4.pv)
 ![](Jesse/perlinnoise/perlinnoise5.png)
 [perlinnoise 5](Jesse/perlinnoise/perlinnoise5.pv)
-![](Jesse/perlinnoise/perlinnoise6.png)
-[perlinnoise 6](Jesse/perlinnoise/perlinnoise6.pv)
+
 
 
 ## Recursive functions
