@@ -8,6 +8,6 @@ for i in range(60):
     rotate(40)
     (x, y, 50, 50)
     
-    fill('red', 'black')
-    stroke(10)
-    rect(x, y, 50, 50)
+    fill('white', 'black')
+    stroke(30)
+    rect(x, y, 40, 40)

@@ -12,6 +12,8 @@
 [fibonacci 4](Jesse/fibonacci/fib4.pv)
 ![](Jesse/fibonacci/fib5.png)
 [fibonacci 5](Jesse/fibonacci/fib5.pv)
+![](Jesse/fibonacci/fib6.png)
+[fibonacci 6](Jesse/fibonacci/fib6.pv)
 
 
 
@@ -27,6 +29,8 @@
 random 4](Jesse/random/random4.pv)
 ![](Jesse/random/random5.png)
 [random 5](Jesse/random/random5.pv)
+![](Jesse/random/random6.png)
+[random 6](Jesse/random/random6.pv)
 
 
 ##  Perlin Noise
