@@ -7,7 +7,7 @@ def setup():
     size(200, 200)
     global t
     background(1)
-    t = random(0,1)
+    t = random(1)
 
 def draw():
     global t
