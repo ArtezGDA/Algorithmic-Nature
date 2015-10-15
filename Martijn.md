@@ -1,7 +1,13 @@
 # Martijn's Sketches
 
 ## Fibonacci
-![](Martijn/imagefile.png)
+![](Martijn/fibbonacci.png)
+![](Martijn/fibbonacci2.png)
+![](Martijn/fibbonacci4.png)
+![](Martijn/fibonacci.png)
+![](Martijn/fibbonacci6.png)
+
+
 
 ##random
 ![](Martijn/pnoiserandom.png)
@@ -15,15 +21,13 @@
 
 
 ## Perlin Noise
-![](Martijn/pnoiserandom.png)
-![](Martijn/randomnoise2.png)
-![](Martijn/randompnoise3.png)
-![](Martijn/randompnoise4.png)
-![](Martijn/random_pnoise5.png)
-![](Martijn/pnoiserandom6.png)
+
+![](Martijn/Untitled.png)
 ![](Martijn/Untitled7.png)
 ![](Martijn/Untitled2.png)
 ![](Martijn/Untitled8.png)
+![](Martijn/Untitled10.png)
+![](Martijn/pnoiserandom6.png)
 
 
 

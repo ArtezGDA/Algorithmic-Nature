@@ -55,4 +55,16 @@
 
 
 ## Recursive functions
+![](Jeanine/Recursive Function/Recursive_tree_01.png)
+[sketch_01](Jeanine/Recurisve Function/Recursive_tree_01.pv)
+![](Jeanine/Recursive Function/Recursive_tree_02.png)
+[sketch_02](Jeanine/Recurisve Function/Recursive_tree_02.pv)
+![](Jeanine/Recursive Function/Recursive_tree_03.png)
+[sketch_03](Jeanine/Recurisve Function/Recursive_tree_03.pv)
+![](Jeanine/Recursive Function/Recursive_tree_04.png)
+[sketch_04](Jeanine/Recurisve Function/Recursive_tree_04.pv)
+![](Jeanine/Recursive Function/Recursive_tree_05.png)
+[sketch_05](Jeanine/Recurisve Function/Recursive_tree_05.pv)
+![](Jeanine/Recursive Function/Recursive_tree_06.png)
+[sketch_06](Jeanine/Recurisve Function/Recursive_tree_06.pv)
             
