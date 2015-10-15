@@ -45,3 +45,5 @@ I# Marleen's Sketches
 [drawing 2](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_2.pv)
 ![](Marleen/04RecursiveFunctions/RecursiveFunction3.png) 
 [drawing 3](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_3.pv)
+![](Marleen/04RecursiveFunctions/RecursiveFunction4.png) 
+[drawing 3](Marleen/04RecursiveFunctions/ArtEZ_DM_RecursiveFunctions_4.pv)
