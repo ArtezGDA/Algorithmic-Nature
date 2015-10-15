@@ -1,23 +1,23 @@
 # Angela's Sketches
 
 ## Fibonacci
-![code](Angela/fibonacci/01Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/01Fibonacciangie.pv)
+![](Angela/fibonacci/01Fibonacciangie.png)
+[code](Angela/fibonacci/01Fibonacciangie.pv)
 
-![code](Angela/fibonacci/03Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/03Fibonacciangie.pv)
+![](Angela/fibonacci/03Fibonacciangie.png)
+[code](Angela/fibonacci/03Fibonacciangie.pv)
 
-![code](Angela/fibonacci/04Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/04Fibonacciangie.pv)
+![](Angela/fibonacci/04Fibonacciangie.png)
+[code](Angela/fibonacci/04Fibonacciangie.pv)
 
-![code](Angela/fibonacci/05Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/05Fibonacciangie.pv)
+![](Angela/fibonacci/05Fibonacciangie.png)
+[code](Angela/fibonacci/05Fibonacciangie.pv)
 
-![code](Angela/fibonacci/06Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/06Fibonacciangie.pv)
+![](Angela/fibonacci/06Fibonacciangie.png)
+[code](Angela/fibonacci/06Fibonacciangie.pv)
 
-![code](Angela/fibonacci/07Fibonacciangie.png)
-[drawing 1](Angela/fibonacci/07Fibonacciangie.pv)
+![](Angela/fibonacci/07Fibonacciangie.png)
+[code](Angela/fibonacci/07Fibonacciangie.pv)
 
 
 ## Perlin Noise
