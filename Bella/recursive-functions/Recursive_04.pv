@@ -1,0 +1,20 @@
+size(200, 200)
+background("grey")
+stroke (0)
+nofill()
+
+# start position
+x = 400
+y = 400
+
+def draadje(x, y, deviation):
+    x2 = x + random(deviation) - (deviation / 2)
+    y2 = y + random(deviation) - (deviation / 2)
+    u2 = x - y
+    line (x, y, x2, y2)
+    image("~/recursive-functions/aap.gif") (x, 100, 20, points=5)
+   
+    return (x2, y2)
+
+for i in range(600):
+    (x, y) = draadje(x, y, 10)

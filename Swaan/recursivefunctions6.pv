@@ -1,0 +1,23 @@
+
+size(400, 400)
+background(1)
+stroke (0)
+font ("arial", 10)
+
+# start position
+y = 0
+x = 0
+
+for j in range(10):
+    y = 0
+    x = 0 + (j*1)
+    
+    for i in range(8):
+        f = 0 + (i*(20))
+        y2 = y + (HEIGHT - 2) /9
+        x2 = x + (30) - 1.0
+        font ("arial", f)
+        text ("SsSs", x, y, x2, y2)
+        y = y2
+        x = x2
+

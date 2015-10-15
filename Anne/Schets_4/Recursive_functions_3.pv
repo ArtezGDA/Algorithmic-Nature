@@ -1,0 +1,23 @@
+size(200, 200)
+background(0)
+stroke (1)
+
+x = WIDTH / 20
+y = HEIGHT / 2
+
+def segment(x, y, x_direction, height):
+    x2 = x - x_direction
+    y2 = y + height
+    line (y, x, x2, y2)
+    return (x2, y2)
+
+segment(y, x, 10, 1)
+segment(y, x, 10, 30)
+segment(y, x, 10, 60)
+segment(y, x, 10, 120)
+segment(y, x, 10, 300)
+segment(y, x, 10, 200)
+segment(y, x, 10, 900)
+
+
+

@@ -1,0 +1,12 @@
+size(200, 200)
+background(1)
+
+for i in range(400):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+
+    
+    fill(random(0.3), random(0.1), random(0.1))
+    rect(random(500), random(500), random(30), random(30))
+    
+export('random_1.png')

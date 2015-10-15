@@ -1,4 +1,4 @@
-size(512, 512)
+size(200,200)
 background(1)
 import noise
 global t
@@ -36,4 +36,5 @@ def draw():
         fill(1,1)
        
         ellipse(random(20,30),random(3,500), t,random(3,12))
+
 

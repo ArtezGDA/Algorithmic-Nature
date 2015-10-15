@@ -1,0 +1,46 @@
+size(512, 512)
+background(0.8)
+
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(0)
+fill(1)
+
+x = WIDTH / 2
+y = HEIGHT / 2
+
+
+direction = 0
+
+for i in range(16):
+    
+    s = fib(i)
+
+    if direction == 0:
+        star(x, y, s, s)
+        x = x + s
+        y = y + s
+    elif direction == 270:
+        star(x - s, y, s, s)
+        x = x - s
+        y = y + s
+    elif direction == 180:
+        star(x - s, y - s, s, s)
+        x = x - s
+        y = y - s
+    elif direction == 90:
+        star(x, y - s, s, s)
+        x = x + s
+        y = y - s
+        
+    direction = direction - 90
+    
+
+    if (direction == -90):
+        direction = 270
+        
+        

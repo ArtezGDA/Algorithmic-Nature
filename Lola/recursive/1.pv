@@ -1,0 +1,58 @@
+size(200, 200)
+background(0)
+stroke (5)
+
+# start position
+x = 10
+y = 100
+z = 3 + x
+w = 76 / 4 
+
+for i in range(6):
+    x2 = x + (HEIGHT - 20) / 6
+    y2 = y + random(90) - 10
+    z2 = x +3
+    w2 = w +5
+    line (x, z, x2, y2)
+    x = x2
+    y = y2
+    z = z2
+    w = w2 + 56
+  
+x = 10    
+y = 125  
+Z = 450
+W = 63 * 56 
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    Z2 = z + random(280) 
+    w2 = w + (HEIGHT * 45) * 5
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 150    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 175    
+    
+for i in range(6):
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(20) - 10
+    line (x, y, x2, y2)
+    x = x2
+    y = y2
+    
+x = 10    
+y = 200    
+    

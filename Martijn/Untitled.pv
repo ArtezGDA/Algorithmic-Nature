@@ -1,4 +1,4 @@
-size(512, 512)
+size(200,200)
 background(1)
 import noise
 global t
@@ -20,11 +20,6 @@ def draw():
         fill(x,y)
         
         rect(x,random(1,512), x,random(3,512))
-
-
-
-
-
 
 size(512, 512)
 background(1)

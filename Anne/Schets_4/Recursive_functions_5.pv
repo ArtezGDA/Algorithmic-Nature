@@ -1,0 +1,20 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+x = 10
+y = 100
+
+def wavy_line(x, y, steps, deviation):
+    for i in range(steps):
+        x2 = x + (WIDTH - 20) / steps
+        y2 = y + random(deviation) - (deviation / 2)
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+        
+rotate(60)
+for i in range(50):
+    wavy_line(10, 10 + (i * 10), 20, 0)
+
+    

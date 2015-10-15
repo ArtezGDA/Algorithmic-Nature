@@ -4,15 +4,15 @@ global t
 def setup():
     size(200, 200)
     global t
-    background(0.5, 0.3, 0.6)
-    t = 2
+    background(1)
+    t = 1
 
 def draw():
     global t
-    stroke(5)
-    t = t + 1
+    stroke(0)
+    t = t + 2
     for x in range(HEIGHT):
-        y = noise.snoise2((x * 0.001) + t, 0.2, octaves=(10))
-        y *= WIDTH / 3.0
+        y = noise.snoise2((x * 0.1) + t, 0.5, octaves=(1))
+        y *= WIDTH / 6.0
         y += WIDTH / 2.0
         line(x, HEIGHT, x, WIDTH - y)

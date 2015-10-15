@@ -1,0 +1,13 @@
+size(200, 200)
+background("white")
+words = ["N"]
+colors = [color(0,0,0), color(0,0,0), color(0,0,0)]
+
+for i in range(15):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    rotate(random(320))
+    fontsize(random(10,100))
+
+    fill(choice(colors))
+    text(choice(words), x, y)

@@ -1,0 +1,29 @@
+size(200, 200)
+background(1)
+
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(1)
+fill(0)
+
+x = 200
+y = 50
+for i in range(30, 0, -4):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    arc(x, y - s, s+30) 
+    
+    x = 100
+y = 100
+for i in range(10, 0, -4):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    arc(x - s, y - s, s+30) 

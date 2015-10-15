@@ -1,4 +1,4 @@
-size(512, 512)
+size(200, 200)
 background(1)
 import noise
 global t
@@ -35,7 +35,8 @@ def draw():
         y += random(30,50) / random(30,50)
         fill(1,1)
        
-        line(random(50,30),random(3,500), t,random(3,12))
+       line(random(50,30),random(3,500), t)
+        
 
 
 

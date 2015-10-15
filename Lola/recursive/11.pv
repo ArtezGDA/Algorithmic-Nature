@@ -1,0 +1,30 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+# start position
+x = -45
+y = 20
+z = 6 * 300
+
+# 6 is the number of line segements
+# 10 is the margin (left and right)
+for i in range(30):
+    # next x is next segment
+    # next y is random + or - 10 
+    x2 = x + (WIDTH + -500) / 775
+    y2 = y + random(150) - 40
+    z2 = y + random(23) * 4
+    star (390, 44, x2, y2)
+
+for i in range(30):
+    # next x is next segment
+    # next y is random + or - 10 
+    x2 = x + (WIDTH - 20) / 6
+    y2 = y + random(150) - 10
+    line (100, 34,  x2, z2,)
+
+
+
+    x = x2
+    y = y2

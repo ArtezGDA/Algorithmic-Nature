@@ -1,5 +1,7 @@
-size(200, 200)
 import noise
+
+size(200, 200)
+
 
 print noise.pnoise1(0.01)
 print noise.pnoise1(0.02)

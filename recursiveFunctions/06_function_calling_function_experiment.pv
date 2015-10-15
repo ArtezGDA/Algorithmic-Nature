@@ -9,7 +9,7 @@ y = 100
 def wavy_segment(x, y, width, deviation):
     x2 = x + width
     y2 = y + random(deviation) - (deviation / 2)
-    line (x, y, x2, y2)
+    text ("a", x, y, x2, y2)
     return y2
 
 def wavy_line(x, y, steps):

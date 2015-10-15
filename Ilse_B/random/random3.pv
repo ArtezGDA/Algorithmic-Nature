@@ -1,0 +1,8 @@
+size(200, 200)
+background("white")
+
+
+for i in range(200):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    oval(x, y, 500, 5)

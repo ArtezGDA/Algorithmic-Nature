@@ -1,0 +1,25 @@
+size(512, 512)
+background(1)
+stroke (0)
+
+# start position
+x = 10
+y = 100
+
+def wavy_segment(x, y, width, deviation):
+    x2 = x + width
+    y2 = y + random(deviation) - (deviation / 2)
+    line (x, y, x2, y2)
+    return y2
+
+def wavy_line(x, y, steps):
+    for i in range(steps):
+        # calculate width (w)
+        w = (WIDTH - 80) / steps
+        # increasing deviation (d)
+        d = 10 + (i * 16)
+        y = wavy_segment(x, y, random(), d)
+        x += w
+
+for i in range(25):
+    wavy_line(10, 100 + (i * 25), 25)

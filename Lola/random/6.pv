@@ -1,0 +1,15 @@
+size(200, 200)
+background(0)
+
+#pen(1)
+stroke(1)
+
+for i in range(56):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    z = random(WIDTH)
+    ellipse(z, y, 30, 30)
+    line(x, z, 6, 6)
+    rect (x, y, 60, 60)
+    oval (x, z, 2, 33 * 45)
+

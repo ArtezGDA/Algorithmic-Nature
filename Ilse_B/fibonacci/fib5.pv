@@ -1,0 +1,18 @@
+size(200, 200)
+background('grey')
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(1)
+strokewidth(1)
+fill(0)
+x = 100
+y = 100
+for i in range(15, 0, -1):
+    
+    s = fib(i)
+    scale(0.8)
+    star(x - s, y - s, s*2, s*2)

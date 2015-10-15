@@ -1,4 +1,4 @@
-size (1000,1000)
+size (200,200)
 background(1)
 
 #Fibonacci as a recursive function
@@ -24,7 +24,7 @@ for i in range(12, 0, -1): #of gewoon 1 getal
     #variable s to optimize for speed
     s = fib(i)
     rect(s, s, s, s)
-    fill(4.0, 2.0, 0.2)
+    fill(0)
     y += s #deze rij weghalen als je ze over elkaar wilt hebben
 
     #andere kant laten beginnen rect(x - s, y - s, s, s)

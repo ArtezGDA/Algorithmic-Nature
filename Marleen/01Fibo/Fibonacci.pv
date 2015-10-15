@@ -1,0 +1,24 @@
+size(400, 400)
+background(5.0)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(0)
+fill(0.5, 2.0, 1.2)
+x = 400
+y = 400
+for i in range(9, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    rect(x - s, y - s, s, 100)
+    rect(x, y, y, x)
+    strokewidth(5)
+    y += s
+
+export('random3 .jpg')

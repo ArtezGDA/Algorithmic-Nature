@@ -1,0 +1,23 @@
+size(200, 200)
+background(0)
+stroke (100)
+
+x = 30
+y = -50
+z= 5*y+x*6
+w= 10-x
+
+for i in range(100):
+    
+    w2 = x + (WIDTH)
+    x2 = z + (HEIGHT) 
+    y2 = w + random(200) 
+    z2 =  - w
+    z2 = 5 - x*80
+    z2 = 5 - w
+    z2 = 100 - w
+
+    nofill ()
+    rect(5, 5, 100, y2)
+
+export('RecursiveFunction.png')

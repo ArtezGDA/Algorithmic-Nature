@@ -9,5 +9,5 @@ for i in range(200):
     rotate(360)
     ellipse(x, y, 1, 1)
     
-    fill('green', 'green')
+    fill('white', 'grey')
     rect(x, y, 1, 10)

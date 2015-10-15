@@ -14,7 +14,7 @@ def draw():
     for x in range(WIDTH):
         y = noise.snoise2((x * 0.1) + t, 0.0, octaves=4)
         y *= HEIGHT * 2.0
-        y += HEIbbGHT / 2.0
+        y += HEIGHT / 2.0
         line(x, HEIGHT, x, HEIGHT - y)
         
     stroke(1)

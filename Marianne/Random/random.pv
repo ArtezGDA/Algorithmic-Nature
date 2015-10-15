@@ -1,0 +1,16 @@
+# Start every time from the same value
+from random import seed
+seed(0)
+
+# Draw the random numbers in a 'graph'
+background(1)
+fill(0)
+
+# # Draw lines 
+# for x in range(WIDTH):
+#     line(x, HEIGHT, x, random(HEIGHT))
+    
+# Draw dots
+for x in range(WIDTH):
+    font("Impact", 30)
+    text("Hello", random(WIDTH)*10, random(HEIGHT), 80)

@@ -2,40 +2,40 @@
 
 ## Fibonacci
 ![drawning 1](Esmee/schets1/Esmee-rect-oval.png)
-[drawning 1](Esmee/schets1/drawning1.pv)
+[drawning 1](Esmee/schets1/Esmee-rect-oval.pv)
 
 ![drawning 2](Esmee/schets1/Esmee-rotate.png)
-[drawning 2](Esmee/schets1/drawning2.pv)
+[drawning 2](Esmee/schets1/Esmee-rotate.pv)
 
 ![drawning 3](Esmee/schets1/Esmee-skew.png)
-[drawning 3](Esmee/schets1/drawning3.pv)
+[drawning 3](Esmee/schets1/Esmee-skew.pv)
 
 ![drawning 4](Esmee/schets1/Esmee-text.png)
-[drawning 4](Esmee/schets1/drawning4.pv)
+[drawning 4](Esmee/schets1/Esmee-text.pv)
 
 ![drawning 5](Esmee/schets1/Esmee-transform.png)
-[drawning 5](Esmee/schets1/drawning5.pv)
+[drawning 5](Esmee/schets1/Esmee-transform.pv)
 
 ![drawning 6](Esmee/schets1/Esmee-translate.png)
-[drawning 6](Esmee/schets1/drawning6.pv)
+[drawning 6](Esmee/schets1/Esmee-translate.pv)
 
 
 ## Random
 
-![drawning 7](Esmee/schets2/Random.png)
-[drawning 7](Esmee/schets2/drawning7.pv)
+![drawning 1](Esmee/schets2/Random.png)
+[drawning 1](Esmee/schets2/Random.pv)
 
-![drawning 8](Esmee/schets2/Random1.png)
-[drawning 8](Esmee/schets2/drawning8.pv)
+![drawning 2](Esmee/schets2/Random1.png)
+[drawning 2](Esmee/schets2/Random1.pv)
 
-![drawning 9](Esmee/schets2/Random2.png)
-[drawning 9](Esmee/schets2/drawning9.pv)
+![drawning 3](Esmee/schets2/Random2.png)
+[drawning 3](Esmee/schets2/Random2.pv)
 
-![drawning 10](Esmee/schets2/Random3.png)
-[drawning 10](Esmee/schets2/drawning10.pv)
+![drawning 4](Esmee/schets2/Random3.png)
+[drawning 4](Esmee/schets2/Random3.pv)
 
-![drawning 11](Esmee/schets2/Random4.png)
-[drawning 11](Esmee/schets2/drawning11.pv)
+![drawning 5](Esmee/schets2/Random4.png)
+[drawning 5](Esmee/schets2/Random4.pv)
 
 
 ## Perlin Noise
@@ -74,4 +74,22 @@
 [drawning 11](Esmee/schets3/09_noise.pv)
 
 ## Recursive functions
+
+![drawning 1](Esmee/schets4/01_recursive.png)
+[drawning 1](Esmee/schets4/01_recursive.pv)
+
+![drawning 2](Esmee/schets4/02_recursive.png)
+[drawning 2](Esmee/schets4/02_recursive.pv)
+
+![drawning 3](Esmee/schets4/03_recursive.png)
+[drawning 3](Esmee/schets4/03_recursive.pv)
+
+![drawning 4](Esmee/schets4/04_recursive.png)
+[drawning 4](Esmee/schets4/04_recursive.pv)
+
+![drawning 5](Esmee/schets4/05_recursive.png)
+[drawning 5](Esmee/schets4/05_recursive.pv)
+
+![drawning 6](Esmee/schets4/06_recursive.png)
+[drawning 6](Esmee/schets4/06_recursive.pv)
             

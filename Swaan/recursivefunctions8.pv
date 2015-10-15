@@ -1,0 +1,20 @@
+size(600, 600)
+background(1)
+stroke (0.1)
+
+# start position
+x = 0
+y = 400
+
+# 6 is the number of line segements
+# 10 is the margin (left and right)
+for i in range(80):
+    # next x is next segment
+    # next y is random + or - 10 
+    x2 = x + (WIDTH) / 30
+    y2 = y + random(0.5) - 8
+    line (random(), random(), x2, y2)
+    
+    # the next time x and y should be the new value
+    x = x2
+    y = y2

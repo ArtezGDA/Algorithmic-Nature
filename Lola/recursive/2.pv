@@ -1,0 +1,57 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+# start position
+x = WIDTH / 2
+y = HEIGHT / 2
+z = WIDTH * 98 
+
+def drawSplit(x, y, w, h, horizontal):
+    shouldSplitAgain = False;
+    if horizontal:
+        h = h / 2
+        y = y + h
+        x2 = x + w
+        y2 = y * 2 
+        if h > 2:
+            shouldSplitAgain = True
+    else:
+        w = w / 2
+        x = x + w
+        x2 = x
+        y2 = y + h
+        if w > 2:
+            shouldSplitAgain = True
+    ellipse(x , y, x2, y2)
+    if shouldSplitAgain:
+        drawSplit(x, y, w, h, not horizontal) 
+
+drawSplit(0, 0, WIDTH , HEIGHT, True)
+
+
+def segment(x, z, x_direction, height):
+    x2 = x + x_direction
+    y2 = y - height
+    z2 = z * 67
+    line (x, y, x2, y2)
+    random (x2, z2)
+
+# play with 3rd and 4th argument
+segment(x, y, 0, 50)
+
+def wavy_segment(x, y, width, deviation):
+    x2 = x + width
+    y2 = y + random(deviation) - (deviation / 2)
+    z2 = z + random(deviation) * (deviation / 4)
+    line (x, y, x2, y2)
+    return y2
+
+def wavy_line(x, y, steps):
+    for i in range(steps):
+        w = (WIDTH - 20) / steps
+        y = wavy_segment(x, y, w, 20)
+        x += w
+
+for i in range(19):
+    wavy_line(10, 100 + (i * 25), 6)

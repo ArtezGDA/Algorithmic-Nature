@@ -1,5 +1,5 @@
 size(512, 512)
-background(0.3, 0.9, 0.7)
+background(1)
 
 # Fibonacci as a recursive function
 def fib(n):
@@ -8,12 +8,15 @@ def fib(n):
     return fib(n - 1) + fib(n - 2)
 
 stroke(0)
-fill(1)
-x = 300
-y = 300
+strokewidth(1)
+nofill()
+x = WIDTH / 2
+y = 200
 for i in range(12, 0, -1):
     # variable s to optimize for speed
     s = fib(i)
     # Start at bottom right corner
     # (calculate the from position by using x - s)
-    oval(x - s, y - s, s, s)
+    oval(x - s, y - s*2, s*2, x+y)
+    oval(x + s, y - s*2, s*2, x*y)
+   

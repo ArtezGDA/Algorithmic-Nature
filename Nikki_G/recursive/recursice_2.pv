@@ -1,0 +1,27 @@
+size(200, 200)
+background(1)
+stroke (0)
+
+# start position
+x = WIDTH / 2
+y = HEIGHT / 2
+
+def segment(x, y, x_direction, height):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    return (x2, y2)
+
+# play with 3rd and 4th argument
+segment(x, y, 0, 50)
+segment((x+5), y, 50, 50)
+segment((x-5), y, -50, 50)
+segment((x-10), y, -100, 50)
+segment((x+10), y, 100, 50)
+
+segment(x, y, 0, -50)
+segment((x+5), y, 50, -50)
+segment((x-5), y, -50, -50)
+segment((x-10), y, -100, -50)
+segment((x+10), y, 100, -50)
+

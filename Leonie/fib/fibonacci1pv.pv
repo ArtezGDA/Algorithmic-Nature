@@ -1,0 +1,61 @@
+size(200, 200)
+background(0.8)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+    
+stroke(1)
+fill(0)8
+y = 190
+for i in range(30, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    oval(x - s, y - s, s, s)
+
+stroke(0) 
+fill(1)
+x = 100
+y = 100
+for i in range(10, 0, -1):
+    s = fib(i)
+    oval(x - s, y - s, s, s)
+    
+    
+stroke(0)
+fill(1)
+x = 130
+y = 120
+for i in range(10, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    oval(x - s, y - s, s, s)
+    
+stroke(0)
+fill(1)
+x = 200
+y = 40
+for i in range(9, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    rect(x - s, y - s, s, s)
+    
+stroke(0)
+fill(1)
+x = 200
+y = 100
+for i in range(8, 0, -1):
+    # variable s to optimize for speed
+    s = fib(i)
+    # Start at bottom right corner
+    # (calculate the from position by using x - s)
+    rect(x - s, y - s, s, s)
+    

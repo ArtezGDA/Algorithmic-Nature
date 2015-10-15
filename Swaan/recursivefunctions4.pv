@@ -1,0 +1,39 @@
+size(400, 400)
+background(1)
+stroke (0)
+strokewidth (4)
+shadow('#999', blur=6, offset=6)
+
+# start position
+x = 10
+y = 100
+
+def wavy_line(x, y, steps, deviation):
+    for i in range(steps):
+        x2 = x + random(HEIGHT - 20)
+        y2 = y + random(HEIGHT) - (deviation / 8)
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+for i in range(20):
+    wavy_line(10, 2 + (i * 60), 4, 2)
+    
+stroke (0.4)
+strokewidth (4)
+shadow('#999', blur=6, offset=4)
+
+# start position
+x = 10
+y = 100
+
+def wavy_line(x, y, steps, deviation):
+    for i in range(steps):
+        x2 = x + random(WIDTH - 20)
+        y2 = y + random(WIDTH) - (deviation / 8)
+        line (x, y, x2, y2)
+        x = x2
+        y = y2
+
+for i in range(20):
+    wavy_line(10, 2 + (i * 60), 4, 2)

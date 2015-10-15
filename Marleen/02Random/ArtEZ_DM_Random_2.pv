@@ -1,0 +1,18 @@
+size(200, 200)
+background(100)
+
+
+stroke(1)
+strokewidth(2)
+
+for i in range(70):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+   
+    star(2, 3, x, y)
+    rotate(5)
+    
+    star(x, y, x, y)
+    rotate(5)
+    
+export('Random2.png')

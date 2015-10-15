@@ -3,7 +3,7 @@ import noise
 
 size(200, 200)
 background(0)
-fill("#100", "white")
+fill("#111", "white")
 
 for y in range(30, 100, 30):
     for x in range(0, HEIGHT, 7):
@@ -11,4 +11,4 @@ for y in range(30, 100, 30):
         # z = z * 20
         x_3d = x * 1 + y * 0.2
         y_3d = y * 1 - z * 9
-        oval(x_3d, y_3d, 8, 16)
+        oval(x_3d, y_3d, 8, 8)

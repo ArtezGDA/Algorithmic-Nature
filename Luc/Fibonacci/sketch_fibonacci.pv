@@ -1,0 +1,20 @@
+
+size(200, 200)
+background(0)
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 4) + fib(n - 2)
+
+stroke(0)
+fill(1)
+x = 100
+y = 200
+for i in range(40, 0, -1):
+    
+    s = fib(i)
+    rect(y-s, 0, 5+s, s)
+    rect(100, 20, s, s)
+    
+    export('Fibonacci_1.png')

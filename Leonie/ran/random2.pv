@@ -1,0 +1,23 @@
+size(200, 200)
+background(1)
+color(RGB)
+
+kleur = color(RGB, random(), random(), 9)
+
+for i in range(100):
+    with bezier(40,-80,fill=None):
+        stroke(0.1)
+        stroke(0)
+        arcto(0, 200-i*10)
+        
+for i in range(600):
+    with bezier(200,-1,fill=None):
+        stroke(0.02)
+        stroke(random())
+        arcto(0, 1-i*9)
+
+for i in range(60):
+    with bezier(20,-70,fill=None):
+        stroke(0.02)
+        stroke(80)
+        arcto(0, 1-i/9)

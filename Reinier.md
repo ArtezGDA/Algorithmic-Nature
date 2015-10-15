@@ -43,4 +43,15 @@
 [sketch 6](Reinier/3_pn/pn_sketch_6.pv)
 
 ## Recursive functions
-            
+![](Reinier/4_rf/rf_sketch_1.png)
+![](Reinier/4_rf/rf_sketch_2.png)
+![](Reinier/4_rf/rf_sketch_3.png)
+![](Reinier/4_rf/rf_sketch_4.png)
+![](Reinier/4_rf/rf_sketch_5.png)
+![](Reinier/4_rf/rf_sketch_6.png)
+[sketch 1](Reinier/4_rf/rf_sketch_1.pv)
+[sketch 2](Reinier/4_rf/rf_sketch_2.pv)
+[sketch 3](Reinier/4_rf/rf_sketch_3.pv)
+[sketch 4](Reinier/4_rf/rf_sketch_4.pv)
+[sketch 5](Reinier/4_rf/rf_sketch_5.pv)
+[sketch 6](Reinier/4_rf/rf_sketch_6.pv)            

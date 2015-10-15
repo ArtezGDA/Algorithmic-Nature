@@ -1,5 +1,5 @@
 size(512, 512)
-background(0, 3, 0.2)
+background(0)
 
 #pen(1)
 stroke(1)

@@ -1,0 +1,16 @@
+size(512, 512)
+background(1)
+
+
+for a in range(20):
+    
+    for b in range(200):
+        rotate((random(WIDTH) * b) + (2 * a))
+        x = random(WIDTH)
+        y = random(HEIGHT)
+        oval(x, y, random(), 90)
+        reset()
+
+
+
+export("random1.png")

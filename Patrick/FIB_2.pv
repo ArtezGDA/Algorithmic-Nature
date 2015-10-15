@@ -1,0 +1,47 @@
+size(512, 512)
+background(1)
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(1)
+fill(0)
+
+x = WIDTH / 2
+y = HEIGHT / 2
+
+direction = 0
+
+for i in range(16):
+    
+    s = fib(i)
+    
+    if direction == 0:
+        font("Helvetica", s)
+        text("A", 70, 80)
+        x = s + s
+        y = s + s
+    elif direction == 270:
+        font("Helvetica", s)
+        text("B",s , 400)
+        x = s - s
+        y = s + s
+    elif direction == 180:
+        font("Helvetica", s)
+        text("C", s, s)
+        x = x - s
+        y = y - s
+    elif direction == 90:
+        font("Helvetica", s)
+        text("D", s, s)
+        x = x + s
+        y = y - s
+        
+    direction = direction - 90
+    
+    if (direction == -90):
+        direction = 270
+        
+export ('FIB3.png')

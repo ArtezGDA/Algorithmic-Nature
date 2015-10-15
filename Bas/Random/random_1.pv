@@ -1,0 +1,28 @@
+size(200, 200)
+background('white')
+
+for i in range(20):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill('black')
+    rotate(0)
+    rect(x, y, 7, 50)
+    stroke('black')
+  
+   
+    fill('black')
+    rect(x+y, y+x, 10, 50)
+    stroke('black')
+    
+    fill('white')
+    rect(x+x, y+y, 10, 50)
+    stroke('black')
+    
+  
+    line(x, y, 100, 100);
+    
+    
+    
+   
+
+

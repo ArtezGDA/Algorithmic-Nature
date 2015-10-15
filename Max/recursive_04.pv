@@ -1,0 +1,18 @@
+size(200, 200)
+background('white')
+stroke ('black')
+
+x = -5
+y = -2
+z= 1*y
+w= 10-x
+
+for i in range(50):
+
+    w2 = x + random(10)
+    x2 = z + (HEIGHT) / 3
+    y2 = w + random(1000) - y
+    z2 = 50 - w
+
+    nofill ()
+    rect(0, 0, 105, y2)

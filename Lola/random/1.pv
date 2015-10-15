@@ -1,0 +1,12 @@
+size(200, 200)
+
+for i in range(888):
+    x = random(7*567)
+    y = random(4+3)
+    nofill()
+    stroke(1)  
+    oval(700,random(i + 6), random(i*10), 40)
+ 
+    stroke(0) 
+    rect(random(i*10), random(y), random(i), 6 * 888)
+    

@@ -19,9 +19,9 @@
 import noise
 
 print noise.pnoise1(0.01)
-print noise.pnoise1(0.02)
+print noise.pnoise1(0.05)
 
-for i in range(10):
+for i in range(4):
     print noise.pnoise1(0.01 + (i * 0.01))
 
 background(1)

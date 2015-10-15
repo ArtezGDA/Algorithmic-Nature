@@ -23,7 +23,7 @@ for i in range(900):
     #oval (x, y, x2, y2)
     #oval (30, y, x2, y2)
     #oval (w, 90, x2, z2)
-    oval (x, w, y2, y2)
+   # oval (x, w, y2, y2)
     #oval (y,    x, x2, x2)
     poly (z, z, x2, sides=8)
     poly (x, y, x2, sides=6)

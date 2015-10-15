@@ -1,0 +1,13 @@
+background(1)
+
+for i in range (50):
+    
+    x = random(HEIGHT)
+    y = random(WIDTH)
+    poly(x,y,y)
+    fill(1)
+    stroke(0)
+    
+    
+    
+    

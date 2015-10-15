@@ -1,0 +1,11 @@
+size(512, 512)
+background(random (0.9))
+
+for i in range(200):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+    fill (random(0.9))
+    font("Helvetica", random(100))
+    text ("A", x, y)
+
+export ('RD4.png')

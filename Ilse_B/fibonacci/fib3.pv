@@ -1,0 +1,45 @@
+
+size(200, 200)
+background('white')
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+fill('grey', 'white', 'black',)
+x = 200
+y = 200
+for i in range(12,11, -1):
+    
+    s = fib(i)
+
+    rect(x - s, y - s, s, s)
+
+fill('grey', 'white', 'black',)
+x = 700
+y = 700
+for i in range(6, 11, -1):
+    
+    s = fib(i)
+    
+    rect(x - s, y - s, s, s)
+
+fill('grey', 'white', 'black',)
+x = 300
+y = 700
+for i in range(12, 11, -1):
+    
+    s = fib(i)
+    
+    rect(x - s, y - s, s, s)
+
+fill('grey', 'white', 'black',)
+x = 700
+y = 300
+for i in range(12, 11, -1):
+   
+    s = fib(i)
+   
+    oval(x - s, y - s, s, s)
+

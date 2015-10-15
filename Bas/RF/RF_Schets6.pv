@@ -1,0 +1,18 @@
+size(200, 200)
+background('black')
+stroke (0.5)
+
+x = 0
+y = -1
+z= 1*y
+w= 5-x
+
+for i in range(1000):
+
+    w2 = x + random(10)
+    x2 = z + (HEIGHT) / 2
+    y2 = w + random(1000) - y
+    z2 = 50 - w
+
+    nofill ()
+    ellipse(0, 0, 105, y2)

@@ -1,0 +1,13 @@
+size(512, 512)
+background(1)
+
+for i in range(50):
+    x = random(WIDTH)
+    y = random(HEIGHT)
+
+    text("jasmijn", x,y)
+    font('avenir' , 'heavy', italic=True)
+    
+
+
+export("random2.png")
