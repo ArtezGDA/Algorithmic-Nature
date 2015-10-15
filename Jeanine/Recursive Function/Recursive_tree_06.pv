@@ -1,0 +1,52 @@
+size(400, 400)
+background(0)
+stroke (1)
+font ("helvetica", 10)
+
+# start position
+x = 1
+y = 1
+
+def wavy_segment(x, y, width, deviation):
+    x2 = x + width
+    y2 = y + random(deviation) - (deviation /2)
+    #text ("ooit zou ik willen dat je", x, y, x2, y2)
+    oval(x, y, 1, 1)
+    return y2
+
+def wavy_line(x, y, steps):
+    for i in range(10):
+        w = (WIDTH - 20) / steps
+        y = wavy_segment(x, y, w, 100)
+        x += w
+
+for i in range(15):
+    wavy_line(10, 10 + (i * 35), 6)
+    
+x = WIDTH / 2
+y = HEIGHT / 1
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    if depth > 0:
+        segment(x2, y2, -30, 30, depth - 1)
+        segment(x2, y2, 30, 30, depth - 1)
+    return (x2, y2)
+
+segment(x, y, 0, 100, 4)
+
+x = WIDTH / 2
+y = HEIGHT / 1.5
+
+def segment(x, y, x_direction, height, depth):
+    x2 = x + x_direction
+    y2 = y - height
+    line (x, y, x2, y2)
+    if depth > 0:
+        segment(x2, y2, 30, -30, depth - 1)
+        segment(x2, y2, -30, -30, depth - 1)
+    return (x2, y2)
+
+segment(x, y, 0, 50, 4)
