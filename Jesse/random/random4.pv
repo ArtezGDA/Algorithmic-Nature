@@ -1,2 +1,41 @@
+size(200, 200)
+background(0)
 
+
+
+
+a=1
+d=random(choice((0.7,2)))
+
+for i in range(100):
+    x = random(WIDTH)
    
+    pen(d)
+    line(x, 200, 0, 0)
+    stroke(0.6, 0.4)
+ 
+for j in range(100):
+    x = random(WIDTH)
+   
+    pen(d)
+    line(x, 0, 0, 200)
+    stroke(0, 0.1)
+    stroke(choice(('#ff0000','#00ff00','#0000ff','#000000')))
+   
+    
+for k in range(100):
+    x = random(WIDTH)
+   
+    pen(d)
+    line(x, 0, 200, 200)
+    stroke(0.6, 0.4)
+    
+    
+for l in range(100):
+    x = random(WIDTH)
+   
+    pen(d)
+    rect(x, 200, 200, 0)
+    stroke(choice(('#ff0000','#00ff00','#0000ff','#000000')))
+
+
