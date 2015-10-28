@@ -1,0 +1,19 @@
+size(200, 200)
+background(0.1)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 3:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+stroke(1)
+strokewidth(1)
+fill(0.9)
+x = 0
+y = 0
+for i in range(15, 0, -1):
+    s = fib(i)
+    rx= random(WIDTH)
+    ry= random(HEIGHT)
+    rect(x + rx, y + ry, s,50) 

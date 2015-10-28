@@ -1,0 +1,19 @@
+import noise
+
+def setup():
+    global t
+    size(200, 200)
+    background("grey")
+    fill(0)
+    t = 0
+
+def draw():
+    global t
+    for y in range(0, WIDTH, 20):
+        for x in range(0, WIDTH, 80):
+            z = noise.snoise3((x * 10), (y * 10), t, octaves=40)
+            z = z * 20
+            x_3d = x * 0.5 + y * 0.5
+            y_3d = (WIDTH / 5) + (y * 80) - (x * 60) - (z * 5)
+            oval(x_3d, y_3d, 80, 300)
+    t = t + 50

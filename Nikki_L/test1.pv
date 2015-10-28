@@ -1,0 +1,18 @@
+size(200, 200)
+background(1)
+
+# Fibonacci as a recursive function
+def fib(n):
+    if n < 1:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+stroke (1)
+strokewidth (1)
+x = 0
+y = 0
+for i in range(10, 0, -1):
+    s = fib(i)
+    rx= random(WIDTH)/2
+    ry= random(HEIGHT)
+    fill("black", "pink")
+    poly(x + rx, y + ry, s,sides=3) 
