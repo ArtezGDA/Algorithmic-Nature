@@ -1,55 +1,37 @@
 # Nikki L's Sketches
 
 ## Fibonacci
-![drawning 1](test1.png)
-[drawning 1](test1.pv)
+<!--![](Nikki_L/imagefile.png)-->
+![](Nikki_L/test.png)
+[drawing1](Nikki_L/test.pv)
+![](Nikki_L/test2.png)
+[drawing2](Nikki_L/test2.pv)
+![](Nikki_L/test6.png)
+[drawing3](Nikki_L/test6.pv)
+![](Nikki_L/test7.png)
+[drawing4](Nikki_L/test7.pv)
 
-![drawning 2](test2.png)
-[drawning 2](test2.pv)
-
-![drawning 3](test3.png)
-[drawning 3](test3.pv)
-
-![drawning 4](test4.png)
-[drawning 4](test4.pv)
-
-![drawning 5](test5.png)
-[drawning 5](test5.pv)
-
-![drawning 6](test6.png)
-[drawning 6](test6.pv)
-
-![drawning 7](test7.png)
-[drawning 7](test7.pv)
-
-![drawning 8](test8.png)
-[drawning 8](test8.pv)
-
-![drawning 9](test9.png)
-[drawning 9](test9.pv)
-
+## Random
+![](Nikki_L/test3.png)
+[drawing1](Nikki_L/test3.pv)
+![](Nikki_L/test4.png)
+[drawing2](Nikki_L/test4.pv)
+![](Nikki_L/test5.png)
+[drawing3](Nikki_L/test5.pv)
+![](Nikki_L/test8.png)
+[drawing4](Nikki_L/test8.pv)
+noise1
 ## Perlin Noise
-
-![drawning 1](schets3/01_noise.png)
-[drawning 1](schets3/01_noise.pv)
-
-![drawning 2](schets3/02_noise.png)
-[drawning 2](schets3/02_noise.pv)
-
-![drawning 3](schets3/03_noise.png)
-[drawning 3](schets3/03_noise.pv)
-
-![drawning 4](schets3/03_noise-k.png)
-[drawning 4](schets3/03_noise-k.pv)
-
-![drawning 5](schets3/04_noise.png)
-[drawning 5](schets3/04_noise.pv)
-
-![drawning 6](schets3/04_noise-k.png)
-[drawning 6](schets3/04_noise-k.pv)
-
-![drawning 7](schets3/05_noise.png)
-[drawning 7](schets3/05_noise.pv)
+![](Nikki_L/noise1.png)
+[drawing1](Nikki_L/noise1.pv)
+![](Nikki_L/noise2.png)
+[drawing2](Nikki_L/noise2.pv)
+![](Nikki_L/noise3.png)
+[drawing3](Nikki_L/noise3.pv)
+![](Nikki_L/noise4.png)
+[drawing4](Nikki_L/noise4.pv)
+![](Nikki_L/noise5.png)
+[drawing5](Nikki_L/noise5.pv)
 
 ## Recursive functions
             
