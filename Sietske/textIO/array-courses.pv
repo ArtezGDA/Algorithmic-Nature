@@ -1,0 +1,11 @@
+size(512, 512)
+background(1)
+
+courses = ["Design & Philosophy", "Photography", "Design Research", "Media & Design Theory", "Computer Skills", "Digital Media", "Graphic Design", "Typography"]
+print len(courses) #print het aantal van de lijst
+courses.append("Media Theory - Willem van Weelden") #voegt toe aan de bestaande lijst
+print courses #print de lijst
+print len(courses) #print aantal lijst
+courses.pop() 
+print courses
+print len(courses)
