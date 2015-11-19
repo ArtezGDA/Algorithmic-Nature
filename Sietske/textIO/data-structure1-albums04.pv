@@ -1,0 +1,12 @@
+size(512, 512)
+background(1)
+
+
+iTunes = { 'artist': "Typefighter",
+            album: [
+                { The End of Everything: ['Nancy Sinatra', 'You When Youre Older', '1991', 'Much', 'Split Intent', 'Bad Cop', 'Know its Wrong', 'I Like the Way You Are', 'Happy', 'Sides', 'Dock the Boats']
+                  Year: 2014 }
+                { Genre: ['Rock'] }
+                
+                ]
+        }
