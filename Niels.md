@@ -1,7 +1,7 @@
 # Niels' schetsen
 ## Fibonacci
 
-![](Niels/Fibonacci/Fibonacci oval 2.png)
+![](Niels/Fibonacci/Fibonacci_oval_2.png)
 [Fibonacci 1](Niels/Fibonacci oval 2.pv)
 ![](Niels/Fibonacci/Fibonacci oval.png)
 [Fibonacci 2](Niels/Fibonacci oval.pv)
