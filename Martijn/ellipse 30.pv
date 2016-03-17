@@ -1,0 +1,44 @@
+size(512, 512)
+background(1)
+import noise
+global t
+size(512, 512)
+background(0.8)
+
+def fib(n):
+    if n < 2:
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+
+x = WIDTH
+y = HEIGHT
+for t in range(12, 0, -1):
+  
+    s = fib(t)
+
+    ellipse(x - s, y - s, s, s)
+
+def setup():
+
+    global t
+    background(1)
+    t = random(WIDTH)
+
+def draw():
+    global t
+    for y in range(0, WIDTH, 10):
+        for x in range(0, WIDTH, 10):
+            z = noise.snoise3((x * 0.01), (y * 0.01), t, octaves=4)
+            z = z * 20
+            x_3d = x * 0.5 + y * 0.5
+            y_3d = (WIDTH / 2) + (y * 0.3) - (x * 0.2) - (z * 0.5)
+            oval
+        (x_3d, y_3d, 2, 1)
+    t = t + 0.05
+
+
+        
+
+
+
